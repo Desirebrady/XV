@@ -16,6 +16,8 @@ ExportedObj/
 *.sln
 *.suo
 *.tmp
+.vscode
+.DS_Store/
 *.user
 *.userprefs
 *.pidb
