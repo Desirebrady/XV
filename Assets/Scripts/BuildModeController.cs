@@ -175,7 +175,6 @@ public class BuildModeController : MonoBehaviour
             {
                 if (hit.collider != null)
                 {
-                    Debug.Log("Object: " + hit.collider.name);
                     newInstance = GameObject.Instantiate(hit.collider.gameObject);
                     newInstance.transform.rotation = Quaternion.identity;
                     newInstance.transform.localScale = new Vector3(1, 1, 1);

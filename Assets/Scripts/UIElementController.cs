@@ -5,9 +5,10 @@ using UnityEngine;
 public class UIElementController : MonoBehaviour
 {
     public float RotationAngle = 10f;
-    public bool isNewInstance = false;
-    public bool isDisplay = true;
+    [HideInInspector] public bool isNewInstance = false;
+    [HideInInspector] public bool isDisplay = true;
     public LayerMask surfaceMask;
+    public string editMenuName;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +24,15 @@ public class UIElementController : MonoBehaviour
         if (isNewInstance)
         {
             followMouse();
+            rotate();
             placeDown();
         }
+    }
+
+    void rotate()
+    {
+        Vector3 newRot = Vector3.up * Input.GetAxis("Horizontal");
+        transform.Rotate(newRot, (RotationAngle * 3) * Time.deltaTime);
     }
 
     void followMouse()
@@ -46,6 +54,18 @@ public class UIElementController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             isNewInstance = false;
+        }
+    }
+
+    void OnMouseDown()
+    {
+        if (!isDisplay && !isNewInstance)
+        {
+            if (MenuManager.instance.buildMode)
+            {
+                MenuManager.instance.selected = this;
+                MenuManager.instance.DeOrActivateSpecificMenu(editMenuName);
+            }
         }
     }
 }

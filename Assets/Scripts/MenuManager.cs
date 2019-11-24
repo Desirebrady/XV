@@ -5,7 +5,11 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager instance;
+    public string buildModeMenuName = "BUILD MODE";
     public MenuOptionComponents[] menuComponents;
+    [HideInInspector] public UIElementController selected;
+
+    [HideInInspector] public bool buildMode = false;
 
     void Awake()
     {
@@ -43,6 +47,9 @@ public class MenuManager : MonoBehaviour
         {
             if (mc.name == name)
             {
+                if (mc.name.Contains(buildModeMenuName))
+                    buildMode = !buildMode;
+
                 foreach (GameObject c in mc.components)
                 {
                     bool set = !c.activeSelf;
@@ -51,6 +58,42 @@ public class MenuManager : MonoBehaviour
                 mc.isActive = true;
                 break;
             }
+        }
+    }
+
+    public void DeOrActivateSpecificMenu(string name)
+    {
+        foreach (var mc in menuComponents)
+        {
+            if (mc.name == name)
+            {
+                if (mc.name.Contains(buildModeMenuName))
+                    buildMode = !buildMode;
+
+                foreach (GameObject c in mc.components)
+                {
+                    bool set = !c.activeSelf;
+                    c.SetActive(set);
+                }
+                mc.isActive = !mc.isActive;
+                break;
+            }
+        }
+    }
+
+    public void RemoveSelected()
+    {
+        if (selected != null)
+        {
+            Destroy(selected.gameObject);
+        }
+    }
+
+    public void TransformSelected()
+    {
+        if (selected != null)
+        {
+            selected.isNewInstance = true;
         }
     }
 }

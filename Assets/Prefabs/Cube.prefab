@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1742643190937087977}
   - component: {fileID: 1693809252337184005}
   - component: {fileID: -4957343838334194091}
+  - component: {fileID: 2408395864514387066}
   m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
@@ -105,9 +106,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40ade52141d4e043af34308e6518885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationAngle: 10
+  RotationAngle: 15
   isNewInstance: 0
   isDisplay: 1
   surfaceMask:
     serializedVersion: 2
     m_Bits: 512
+  editMenuName: OBJECT EDIT MENU
+--- !u!65 &2408395864514387066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273643974299296610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
