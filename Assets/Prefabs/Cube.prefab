@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1693809252337184005}
   - component: {fileID: -4957343838334194091}
   - component: {fileID: 2408395864514387066}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ MonoBehaviour:
   isDisplay: 1
   surfaceMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 1536
   editMenuName: OBJECT EDIT MENU
 --- !u!65 &2408395864514387066
 BoxCollider:
