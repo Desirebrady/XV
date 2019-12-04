@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public static CameraController instance;
     Vector2 rotation = new Vector2(0, 0);
 
     public float rotateSpeed = 1f;
     public float panSpeed = 1f;
     public float scrollSpeed = 10f;
     public Vector3 offset = Vector3.zero;
+    public Vector3 rotationOffset = Vector3.zero;
 
-    public Vector2 CameraZoomMinMax = new Vector2(-10, 10);
     public float defaultFOV = 60;
     public float minFOV = 20;
     public float maxFOV = 100;
@@ -19,10 +20,23 @@ public class CameraController : MonoBehaviour
     private PanDirection pan = PanDirection.NONE;
     private PanDirection previousPan = PanDirection.NONE;
     private float panLerp = 0;
+    private Camera cam;
 
-    // Start is called before the first frame update
+    void Awake()
+    {
+        if (instance != this)
+        {
+            instance = null;
+        }
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
     void Start()
     {
+        cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -35,6 +49,15 @@ public class CameraController : MonoBehaviour
             PanCamera();
             ZoomCamera();
         }
+    }
+
+    public void OffsetCamera()
+    {
+        if (cam == null)
+            cam = Camera.main;
+
+        cam.transform.localPosition += offset;
+        cam.transform.localRotation = Quaternion.Euler(rotationOffset.x, rotationOffset.y, rotationOffset.z);
     }
 
     void ZoomCamera()

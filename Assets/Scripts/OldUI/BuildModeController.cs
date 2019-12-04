@@ -11,7 +11,8 @@ public class BuildModeController : MonoBehaviour
 
     public float camForwardOffset;
 
-    public UIElement[] UIElements;
+    public UIElement1[] UIElements;
+    public UIElement1 temp;
 
     private float UIElementsLengthOffset;
     private float UIElementsRotationOffset;
@@ -43,6 +44,7 @@ public class BuildModeController : MonoBehaviour
     {
         Transform[] children = GetComponentsInChildren<Transform>();
 
+        temp.GenerateIcon(Camera.main);
         
         foreach (var child in children)
         {
@@ -88,6 +90,7 @@ public class BuildModeController : MonoBehaviour
 
     void Update()
     {
+
         if (newRotation != null)
             CameraHandler.rotation = Quaternion.Lerp(CameraHandler.rotation, newRotation, 0.2f);
         CreateInstance();
@@ -190,8 +193,17 @@ public class BuildModeController : MonoBehaviour
 }
 
 [System.Serializable]
-public class UIElement
+public class UIElement1
 {
     public Transform elementTransform;
     public Vector3 elementScale;
+    public RenderTexture icon;
+
+    public void GenerateIcon(Camera SnapShotCam)
+    {
+        icon = new RenderTexture(256, 256, 1000, RenderTextureFormat.ARGB32);
+        icon.Create();
+        SnapShotCam.targetTexture = icon;
+        SnapShotCam.Render();
+    }
 }
