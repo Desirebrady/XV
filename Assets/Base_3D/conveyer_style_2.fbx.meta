@@ -3,7 +3,17 @@ guid: 6532f5bf3977d4f4db29bf811cc2e798
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COULEUR_CHARIOT
+    second: {fileID: 2100000, guid: e1fc647333f0e423e9971b9e74cbb6fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_001
+    second: {fileID: 2100000, guid: c4569133dbf0345dca8f04ba3aa49680, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

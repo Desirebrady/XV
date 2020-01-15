@@ -3,7 +3,17 @@ guid: e444ceee1f8ec4c6f87cccd74fa6672f
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Charcoal_
+    second: {fileID: 2100000, guid: 92326936b324f4b4ebde5eff7eadd3b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _DarkGoldenrod_
+    second: {fileID: 2100000, guid: 39aac7c4c7f7f4168b4f4b56078e64ef, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
