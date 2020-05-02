@@ -62,6 +62,7 @@ class UIElementManager : MonoBehaviour
     public GameObject EditMenuCanvas;
     public GameObject ActionsOptionsMenuCanvas;
     public GameObject GameMenuCanvas;
+    public GameObject CompletionCanvas;
 
     [Header("Instruction Textures for DEBUG")]
     public Texture2D FromImage;
@@ -386,6 +387,11 @@ class UIElementManager : MonoBehaviour
         {
             Destroy(action.gameObject);
         }
+    }
+
+    public void SetCompletionScreen(string moneyAmt)
+    {
+        CompletionCanvas.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = moneyAmt;
     }
 }
 

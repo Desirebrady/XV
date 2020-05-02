@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
     {
         if (levelTimer <= 0)
         {
-            Debug.Log("Your earnings over 3 min is: " + moneySystem.currentMoney);
+            GameHasEnded();
             return;
         }
 
@@ -82,6 +82,18 @@ public class GameManager : MonoBehaviour
         
         //Dante _ Commented Out
         //DeselectSelectedPerson();
+    }
+
+    private bool showingEndStates = false;
+
+    private void GameHasEnded()
+    {
+        if (showingEndStates == false)
+        {
+            showingEndStates = true;
+            UIElementManager.Instance.SetCompletionScreen(moneySystem.currentMoney.ToString());
+            UIElementManager.Instance.CompletionCanvas.SetActive(true);
+        }
     }
 
     public void UpdateTickTimers()
