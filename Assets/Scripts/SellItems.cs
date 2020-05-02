@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SellItems : MonoBehaviour, IPut
+public class SellItems : MonoBehaviour, IPut, IBuyable
 {
+    public float price;
     public int maxStorage = 32;
     public List<Item> sellingItems = new List<Item>();
     [HideInInspector] public Outline outline;
@@ -14,17 +15,22 @@ public class SellItems : MonoBehaviour, IPut
         outline.enabled = false;
     }
 
-    public int sell(Item target)
+    public float sell(Item target)
     {
         int startlen = sellingItems.Count;
         for (int i = startlen - 1; i >= 0; i--)
         {
             if (sellingItems[i] == null)
+            {
+                sellingItems.RemoveAt(i);
                 continue;
-                
+            }
+            
             if (sellingItems[i].type == target.type)
             {
-                transform.GetChild(0).GetChild(sellingItems.Count - 1).gameObject.SetActive(false);
+                if ((sellingItems.Count - 1) <= transform.GetChild(0).childCount)
+                    transform.GetChild(0).GetChild(sellingItems.Count - 1).gameObject.SetActive(false);
+
                 sellingItems.RemoveAt(i);
             }
         }
@@ -53,5 +59,10 @@ public class SellItems : MonoBehaviour, IPut
     public List<Ingredient> GetInputs()
     {
         return new List<Ingredient>();
+    }
+
+    public float GetPrice()
+    {
+        return price;
     }
 }

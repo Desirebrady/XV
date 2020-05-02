@@ -23,4 +23,7 @@ public interface IGet
     bool Has(Item item);
 }
 
-
+public interface IBuyable
+{
+    float GetPrice();
+}

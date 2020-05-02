@@ -33,6 +33,8 @@ class UIElementManager : MonoBehaviour
     
     [Header("UI Element Snapshot Camera")]  
     public Camera UICamera;
+    public Transform UICamHolder;
+    private Camera UICameraTemp;
     
     [Header("Viewport Object Holder")]  
     public Transform newInstanceParent;
@@ -49,9 +51,8 @@ class UIElementManager : MonoBehaviour
     public GameObject ActionsCanvas;
     public GameObject ActionItemsHolder;
 
-    [Header("Storage Menu Setup")]  
-    public GameObject StorageCanvas;
-    public GameObject StorageItemsHolder;
+    [Header("Video Menu Setup")]  
+    public GameObject VideoCanvas;
 
     [Header("Tab Options")]
     public GameObject TabHolder;
@@ -60,6 +61,7 @@ class UIElementManager : MonoBehaviour
     [Header("Secondary Menus Options")]
     public GameObject EditMenuCanvas;
     public GameObject ActionsOptionsMenuCanvas;
+    public GameObject GameMenuCanvas;
 
     [Header("Instruction Textures for DEBUG")]
     public Texture2D FromImage;
@@ -68,26 +70,58 @@ class UIElementManager : MonoBehaviour
     [Header("Main Menu Holder")]
     public Transform MainMenuHolder;
 
+
+    void Awake()
+    {
+        currentMode = MenuMode.None;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        UICamera = GetComponentInChildren<Camera>();
+        OnUIStartup();
+    }
+
+    void OnUIStartup()
+    {
+        
+        if (UICamera == null)
+            UICamera = GetComponentInChildren<Camera>();
+
+        if (UICamera != null)
+            UICameraTemp = Instantiate(UICamera, UICamHolder);
+        else
+            UICamera = Instantiate(UICameraTemp, UICamHolder);
+    
+        UICamera.enabled = true;
+
         for (int i = 0; i < UIElements.Length; i++)
         {
             var element = UIElements[i];
-            var inst = Instantiate(element.prefab, transform);
-            element.GenerateIcon(UICamera, inst.transform);
-            inst.SetActive(false);
-            Destroy(inst);
+            if (element.defaultIcon == null)
+            {
+                var inst = Instantiate(element.prefab, transform);
+                element.GenerateIcon(UICamera, inst.transform);
+                inst.SetActive(false);
+                Destroy(inst);
+            }
         }
+        currentMode = MenuMode.None;
         UICamera.targetTexture = null;
-        //Destroy(UICamera.gameObject);
         SetupBuildMenuTabs();
         SetupBuildMenu();
+
+        UICamera.enabled = false;
+        UICameraTemp.enabled = false;
     }
 
     void SetupBuildMenuTabs()
     {
+        foreach (GameObject tab in TabHolder.transform)
+        {
+            Destroy(tab);
+        }
+
         foreach (Category categ in System.Enum.GetValues(typeof(Category)))
         {
             var inst = Instantiate(Tab, TabHolder.transform);
@@ -99,8 +133,11 @@ class UIElementManager : MonoBehaviour
         }
     }
 
+    public List<string> uiItemsOnLevel = new List<string>();
+
     void SetupBuildMenu()
     {
+        uiItemsOnLevel.Clear();
         foreach (Transform child in BuildItemsHolder.transform)
         {
             GameObject.Destroy(child.gameObject);
@@ -108,14 +145,35 @@ class UIElementManager : MonoBehaviour
 
         foreach(UIElement element in UIElements)
         {
+            bool isInList = element.validLevelList.IndexOf(GameManager.Instance.loadingRules.activeLevel) != -1;
+
+            if (isInList == false)
+                continue;
+
             if (element.isActive)
             {
                 var inst = Instantiate(BuildContentItem, BuildItemsHolder.transform);
                 ItemSetup setup = inst.GetComponent<ItemSetup>();
-                setup.rendTexture = element.prefabIcon;
+
+                if (uiItemsOnLevel.Contains(element.prefab.name))
+                {
+                    GameObject.Destroy(inst);
+                    setup = null;
+                    continue;
+                }
+
+                uiItemsOnLevel.Add(element.prefab.name);
+
+                if (element.defaultIcon == null)
+                {
+                    setup.rendTexture = element.prefabIcon;
+                    setup.textureHeight = element.prefabIcon.height;
+                    setup.textureWidth = element.prefabIcon.width;
+                }
+                else
+                    setup.myTexture = element.defaultIcon;
+
                 setup.radius = 2;
-                setup.textureHeight = element.prefabIcon.height;
-                setup.textureWidth = element.prefabIcon.width;
                 setup.prefab = element.prefab;
                 setup.SetIcon();
             }
@@ -126,6 +184,9 @@ class UIElementManager : MonoBehaviour
     {
         if (!GameManager.Instance.Running)
         {
+            if (Input.GetKeyDown(KeyCode.I))
+                OnUIStartup();
+
             EnableMenuButtons();
             if (currentMode != MenuMode.BuildMode)
             {
@@ -133,34 +194,37 @@ class UIElementManager : MonoBehaviour
             }
             if (currentMode == MenuMode.ActionsMode)
             {
-                if (SceneObjectsManager.Instance.selectedPerson != null)
+                if (SceneObjectsManager.Instance.actionRevalidate)
                 {
-                    ClearActionItemsBuffer();
-                    LinkedListNode<Instruction> node = SceneObjectsManager.Instance.selectedPerson.Instructions.First;
-                    while (node != null)
+                    SceneObjectsManager.Instance.actionRevalidate = false;
+                    if (SceneObjectsManager.Instance.selectedPerson != null)
                     {
-                        if (node.Value.interactionType == InteractionType.Get)
+                        ClearActionItemsBuffer();
+                        LinkedListNode<Instruction> node = SceneObjectsManager.Instance.selectedPerson.Instructions.First;
+                        while (node != null)
                         {
-                            LinkedListNode<Instruction> from = node;
+                            if (node.Value.interactionType == InteractionType.Get)
+                            {
+                                LinkedListNode<Instruction> from = node;
+                                node = node.Next;
+                                AddActionItem(from, node);
+                            }
+                            else if (node.Value.interactionType == InteractionType.WorkAt)
+                            {
+                                AddActionItem(node);
+                            }
                             node = node.Next;
-                            AddActionItem(from, node);
                         }
-                        else if (node.Value.interactionType == InteractionType.WorkAt)
-                        {
-                            AddActionItem(node);
-                        }
-                        node = node.Next;
                     }
-                }
-                else
-                {
-                    ClearActionItemsBuffer();
+                    else
+                    {
+                        ClearActionItemsBuffer();
+                    }
                 }
             }
         }
-        else
+        else if (currentMode == MenuMode.None)
         {
-            DisableMenuButtons();
             DeactivateAllMenus();
         }
     }
@@ -182,6 +246,19 @@ class UIElementManager : MonoBehaviour
             bool isactive = ActionsOptionsMenuCanvas.activeSelf;
 
             ActionsOptionsMenuCanvas.SetActive(!isactive);
+        }
+    }
+
+    public bool isEditMenuActive(string menuName)
+    {
+        switch(menuName.ToUpper())
+        {
+            case "BUILDEDITMENU":
+                return EditMenuCanvas.activeSelf;
+            case "ACTIONSEDITMENU":
+                return ActionsOptionsMenuCanvas.activeSelf;
+            default:
+                return false;
         }
     }
 
@@ -228,7 +305,7 @@ class UIElementManager : MonoBehaviour
 
     public void ActivateOrDeactivateMenu(MenuMode mode)
     {
-        bool isactive = false;
+        bool isactive = true;
 
         switch (mode)
         {
@@ -241,8 +318,7 @@ class UIElementManager : MonoBehaviour
                 
                 if (ActionsCanvas != null) ActionsCanvas.SetActive(false);
                 if (ActionsOptionsMenuCanvas != null) ActionsOptionsMenuCanvas.SetActive(false);
-                if (StorageCanvas != null) StorageCanvas.SetActive(false);
-
+                if (VideoCanvas != null) VideoCanvas.SetActive(false);
                 break;
             case MenuMode.ActionsMode:
                 isactive = ActionsCanvas.activeSelf;
@@ -250,18 +326,30 @@ class UIElementManager : MonoBehaviour
 
                 if (!ActionsCanvas.activeSelf)
                     ActionsOptionsMenuCanvas.SetActive(false);
+                else
+                    ActionsOptionsMenuCanvas.SetActive(true);
 
                 if (BuildCanvas != null) BuildCanvas.SetActive(false);
                 if (EditMenuCanvas != null) EditMenuCanvas.SetActive(false);
-                if (StorageCanvas != null) StorageCanvas.SetActive(false);
+                if (VideoCanvas != null) VideoCanvas.SetActive(false);
                 break;
-            case MenuMode.StorageMode:
-                isactive = StorageCanvas.activeSelf;
-                if (StorageCanvas != null) StorageCanvas.SetActive(!isactive);
+            case MenuMode.VideoMode:
+                isactive = VideoCanvas.activeSelf;
+                if (VideoCanvas != null) VideoCanvas.SetActive(!isactive);
                 if (BuildCanvas != null) BuildCanvas.SetActive(false);
                 if (EditMenuCanvas != null) EditMenuCanvas.SetActive(false);
                 if (ActionsCanvas != null) ActionsCanvas.SetActive(false);
                 if (ActionsOptionsMenuCanvas != null) ActionsOptionsMenuCanvas.SetActive(false);
+                break;
+            case MenuMode.GameMenu:
+                isactive = GameMenuCanvas.activeSelf;
+                if (GameMenuCanvas != null) GameMenuCanvas.SetActive(!isactive);
+                if (VideoCanvas != null) VideoCanvas.SetActive(false);
+                if (BuildCanvas != null) BuildCanvas.SetActive(false);
+                if (EditMenuCanvas != null) EditMenuCanvas.SetActive(false);
+                if (ActionsCanvas != null) ActionsCanvas.SetActive(false);
+                if (ActionsOptionsMenuCanvas != null) ActionsOptionsMenuCanvas.SetActive(false);
+                currentMode = MenuMode.GameMenu;
                 break;
             default:
                 break;
@@ -278,7 +366,9 @@ class UIElementManager : MonoBehaviour
         if (BuildCanvas != null) BuildCanvas.SetActive(false);
         if (EditMenuCanvas != null) EditMenuCanvas.SetActive(false);
         if (ActionsCanvas != null) ActionsCanvas.SetActive(false);
-        if (StorageCanvas != null) StorageCanvas.SetActive(false);
+        if (VideoCanvas != null) VideoCanvas.SetActive(false);
+        if (ActionsOptionsMenuCanvas != null) ActionsOptionsMenuCanvas.SetActive(false);
+        if (GameMenuCanvas != null) GameMenuCanvas.SetActive(false);
     }
 
     public void AddActionItem(LinkedListNode<Instruction> from, LinkedListNode<Instruction> to = null)
@@ -287,6 +377,7 @@ class UIElementManager : MonoBehaviour
         ActionSetup set = inst.GetComponent<ActionSetup>();
         set.FromHolder = from;
         set.ToHolder = to;
+ 
     }
 
     public void ClearActionItemsBuffer()
@@ -304,6 +395,7 @@ public enum MenuMode
     BuildMode,
     ActionsMode,
     PlaybackMode,
-    StorageMode,
+    VideoMode,
+    GameMenu,
     None
 }

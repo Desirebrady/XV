@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class ItemSetup : MonoBehaviour
 {
     private RawImage image;
-    [HideInInspector]public RenderTexture rendTexture;
-    private Texture2D myTexture;
+    [HideInInspector] public RenderTexture rendTexture;
+    [HideInInspector] public Texture2D myTexture;
     public LayerMask surfaceMask;
 
     [HideInInspector]public int radius = 2;
@@ -15,30 +15,79 @@ public class ItemSetup : MonoBehaviour
     [HideInInspector]public int textureHeight = 256;
     [HideInInspector]public GameObject prefab;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     public void SetIcon()
     {
         image = GetComponent<RawImage>();
-        myTexture = toTexture2D(rendTexture);
-        Texture2D temp = CalculateTexture(  myTexture.height, myTexture.width, 
-                                            myTexture.height / radius,
-                                            myTexture.height / radius,
-                                            myTexture.width / radius, myTexture 
-                                          );
-        image.texture = temp;
+
+        if (myTexture == null && rendTexture != null)
+        {
+            myTexture = TextureTools.toTexture2D(rendTexture, textureWidth, textureHeight);
+            Texture2D temp = TextureTools.CalculateTexture(  myTexture.height, myTexture.width, 
+                                                myTexture.height / radius,
+                                                myTexture.height / radius,
+                                                myTexture.width / radius, myTexture 
+                                            );
+        }
+
+        image.texture = myTexture;
     }
  
  
-    Texture2D CalculateTexture(int h, int w, float r, float cx, float cy, Texture2D sourceTex)
+
+
+
+
+    public void onClick()
+    {
+        //Create Instance
+        var instance = Instantiate(prefab, UIElementManager.Instance.newInstanceParent);
+        instance.gameObject.layer =  LayermaskToLayer(UIElementManager.Instance.SceneElementMask);
+
+        UIElementController test;
+
+        if (!instance.TryGetComponent<UIElementController>(out test))
+        {
+            var controller = instance.AddComponent<UIElementController>();
+            controller.isNewInstance = true;
+            controller.myIcon = image;
+            controller.surfaceMask = surfaceMask;
+        }
+        else
+        {
+            test.isNewInstance = true;
+            test.myIcon = image;
+            test.surfaceMask = surfaceMask;
+        }
+
+        GameManager.Instance.moneySystem.RemoveMoney(instance.GetComponent<IBuyable>().GetPrice());
+    }
+
+    public int LayermaskToLayer(LayerMask layerMask) 
+    {
+        int layerNumber = 0;
+        int layer = layerMask.value;
+        while(layer > 0) 
+        {
+            layer = layer >> 1;
+            layerNumber++;
+        }
+        
+        return layerNumber - 1;
+     }
+}
+
+public static class TextureTools
+{
+    public static Texture2D toTexture2D(RenderTexture rTex, int textureWidth, int textureHeight)
+    {
+        Texture2D tex = new Texture2D(textureWidth, textureHeight, TextureFormat.RGB24, false);
+        RenderTexture.active = rTex;
+        tex.ReadPixels(new Rect(0, 0, rTex.width, rTex.height), 0, 0);
+        tex.Apply();
+        return tex;
+    }
+
+    public static Texture2D CalculateTexture(int h, int w, float r, float cx, float cy, Texture2D sourceTex)
     {
         Color[] c = sourceTex.GetPixels(0, 0, sourceTex.width, sourceTex.height);
         Texture2D b = new Texture2D(h, w);
@@ -58,36 +107,4 @@ public class ItemSetup : MonoBehaviour
         b.Apply();
         return b;
     }
-
-    Texture2D toTexture2D(RenderTexture rTex)
-    {
-        Texture2D tex = new Texture2D(textureWidth, textureHeight, TextureFormat.RGB24, false);
-        RenderTexture.active = rTex;
-        tex.ReadPixels(new Rect(0, 0, rTex.width, rTex.height), 0, 0);
-        tex.Apply();
-        return tex;
-    }
-
-    public void onClick()
-    {
-        var instance = Instantiate(prefab, UIElementManager.Instance.newInstanceParent);
-        instance.gameObject.layer =  LayermaskToLayer(UIElementManager.Instance.SceneElementMask);
-        var controller = instance.AddComponent<UIElementController>();
-        controller.isNewInstance = true;
-        controller.myIcon = image.texture;
-        controller.surfaceMask = surfaceMask;
-    }
-
-    public int LayermaskToLayer(LayerMask layerMask) 
-    {
-        int layerNumber = 0;
-        int layer = layerMask.value;
-        while(layer > 0) 
-        {
-            layer = layer >> 1;
-            layerNumber++;
-        }
-        
-        return layerNumber - 1;
-     }
 }

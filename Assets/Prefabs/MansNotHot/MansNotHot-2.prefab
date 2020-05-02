@@ -1072,7 +1072,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 100
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &4216266613649287647
@@ -1087,11 +1087,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054e40a1c02fb48ae9e477c40b8fe83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 0
   startPos: {x: 0, y: 0, z: 0}
   item: {fileID: 0}
   station: {fileID: 0}
-  fromPoint: {fileID: 0}
-  toPoint: {fileID: 0}
+  selectedDecal: {fileID: 0}
+  ikActive: 0
+  carryBox_IK: {fileID: 0}
+  carryBox_IK_Parent: {fileID: 0}
 --- !u!1 &5462832339164922922
 GameObject:
   m_ObjectHideFlags: 0

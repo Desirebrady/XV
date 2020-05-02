@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
+[System.Serializable]
+public class ItemManager : MonoBehaviour, IGet, IOperate, IPut, IBuyable
 {
     #region Variables
     public float operateTime;
@@ -13,11 +14,13 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
         refines,
         destroys
     }
+    public float price = 500;
+    public int saveID;
     public ItemManagerType ManagerType = ItemManagerType.nothing;
     public Recipe itemRecipe = new Recipe();
     List<Person> workers = new List<Person>();
 
-    private GameObject childrenHolder;
+    public GameObject childrenHolder;
     public float spawnTimer = 5, currentSpawnTimer = 0;
     public bool requiresWorkers = false;
     public float baseSpawnTimer = 5, personWorkDecrease = 2;
@@ -27,9 +30,24 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
     [HideInInspector] public Outline outline;
     #endregion
 
-    public void Awake()
+    public void OnDestroy()
     {
+        if (GameManager.Instance != null)
+            if (GameManager.Instance.allObjects.Count > 0)
+                if (GameManager.Instance.allObjects.Contains(this))
+                    GameManager.Instance.allObjects.Remove(this);
+    }
+
+    public float GetPrice()
+    {
+        return price;
+    }
+
+    public void Start()
+    {
+        GameManager.Instance.allObjects.Add(this);
         childrenHolder = transform.Find("Children").gameObject;
+        station = transform.Find("Station")?.gameObject;
         outline = GetComponent<Outline>();
 
         if (outline != null)
@@ -130,6 +148,7 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
     private bool Spawn(GameObject item = null)
     {
         bool canSpawn = true;
+
         foreach (Ingredient i in itemRecipe.ingredients)
         {
             int count = 0;
@@ -141,6 +160,7 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
             if (count < i.itemAmt)
                 canSpawn = false;
         }
+
         foreach (Ingredient i in itemRecipe.output)
         {
             int count = 0;
@@ -152,6 +172,7 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
             if ((i.maxStorage - count) < i.itemAmt)
                 canSpawn = false;
         }
+
         if (canSpawn)
         {
             foreach (Ingredient i in itemRecipe.ingredients)
@@ -167,6 +188,7 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
                     }
                 }
             }
+
             foreach (Ingredient i in itemRecipe.output)
             {
                 int spawnedTotal = 0;
@@ -255,24 +277,22 @@ public class ItemManager : MonoBehaviour, IGet, IOperate, IPut
     #region IPut
     public bool put(Item item)
     {
-        if (item == null)
+        if (item != null)
         {
-            Debug.Log("WTF");
-        }
-        else
-        foreach (Ingredient i in itemRecipe.ingredients)
-        {
-            if (i.item.type == item.type)
+            foreach (Ingredient i in itemRecipe.ingredients)
             {
-                foreach (Transform t in i.spawnLocations)
+                if (i.item.type == item.type)
                 {
-                    if (t.childCount == 0)
+                    foreach (Transform t in i.spawnLocations)
                     {
-                        item.transform.SetParent(t);
-                        item.transform.localPosition = Vector3.zero;
-                        item.transform.localRotation = Quaternion.identity;
-                        item.gameObject.SetActive(true);
-                        return true;
+                        if (t.childCount == 0)
+                        {
+                            item.transform.SetParent(t);
+                            item.transform.localPosition = Vector3.zero;
+                            item.transform.localRotation = Quaternion.identity;
+                            item.gameObject.SetActive(true);
+                            return true;
+                        }
                     }
                 }
             }

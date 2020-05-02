@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6284684388050264271}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1965833937638296287}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490624155012902595}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_3_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 2736370548665491053}
   - component: {fileID: 5362234550986605222}
   - component: {fileID: 334981835969171899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh83
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,6 +147,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -172,6 +173,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &283081998232803438
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +185,7 @@ GameObject:
   - component: {fileID: 8053154794509057520}
   - component: {fileID: 5647210085311139528}
   - component: {fileID: 4229871616002646636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh104
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,6 +228,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -250,6 +253,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &301442742934814324
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5128601513679041968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_3_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +296,7 @@ GameObject:
   - component: {fileID: 2572440340612187670}
   - component: {fileID: 5930132622404733317}
   - component: {fileID: 6290566817411963512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,6 +339,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -360,6 +365,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &422368639199999445
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +377,7 @@ GameObject:
   - component: {fileID: 5880554809300965723}
   - component: {fileID: 7881712102051499570}
   - component: {fileID: 3936500368438983034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,6 +420,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -438,6 +445,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &424702325355637957
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2500577352470785429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4022598516305620908}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7699457990181722093}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7509674755251697859}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4846921285388826995}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +627,7 @@ GameObject:
   - component: {fileID: 1711480993784744182}
   - component: {fileID: 5499971049123030684}
   - component: {fileID: 8469115986212118231}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh111
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,6 +670,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -687,6 +696,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &494815325304326940
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +708,7 @@ GameObject:
   - component: {fileID: 6011119425181008367}
   - component: {fileID: 3537093386768473444}
   - component: {fileID: 7645714960063623082}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,6 +751,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -766,6 +777,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &529699453508619909
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9138517267028237324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3471099423996815469}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +851,7 @@ GameObject:
   - component: {fileID: 3025939827393259539}
   - component: {fileID: 3174529412884879169}
   - component: {fileID: 6578770427853126739}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,6 +894,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -907,6 +920,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &688357857635587766
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,7 +932,7 @@ GameObject:
   - component: {fileID: 3101902823779829121}
   - component: {fileID: 8209877775931392509}
   - component: {fileID: 1810990946797011001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,6 +975,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -986,6 +1001,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &711122203572311501
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,7 +1013,7 @@ GameObject:
   - component: {fileID: 6996008209676362293}
   - component: {fileID: 977866419064607825}
   - component: {fileID: 1577237967535294800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,6 +1056,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1065,6 +1082,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &711469920792815673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337391659222358794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1110,7 +1128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7836649097315696153}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1143,7 +1161,7 @@ GameObject:
   - component: {fileID: 2710223367019941629}
   - component: {fileID: 28807474856185096}
   - component: {fileID: 2981267513901645042}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,6 +1204,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1211,6 +1230,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &765459213381243086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1242,7 @@ GameObject:
   - component: {fileID: 548162016375478950}
   - component: {fileID: 3341811404394534657}
   - component: {fileID: 469588939950933615}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1265,6 +1285,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1290,6 +1311,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &765859836962014898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1323,7 @@ GameObject:
   - component: {fileID: 9110701359792783792}
   - component: {fileID: 3474786821034513687}
   - component: {fileID: 1918555344921858702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,6 +1366,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1368,6 +1391,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &776590367929560494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,7 +1403,7 @@ GameObject:
   - component: {fileID: 1393282303089402241}
   - component: {fileID: 6415436654428827703}
   - component: {fileID: 3341415519496969365}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1422,6 +1446,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1447,6 +1472,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &838620840337221106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,7 +1484,7 @@ GameObject:
   - component: {fileID: 876499217392575847}
   - component: {fileID: 6855813051642670257}
   - component: {fileID: 2661926891791656152}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1501,6 +1527,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1525,6 +1552,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &878821975022847421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,7 +1564,7 @@ GameObject:
   - component: {fileID: 2877436082707257000}
   - component: {fileID: 5766989611433770924}
   - component: {fileID: 7178617797505982569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh97
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1579,6 +1607,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1603,6 +1632,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &926246041569536564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,7 +1644,7 @@ GameObject:
   - component: {fileID: 7977019169829597693}
   - component: {fileID: 2294002664859832695}
   - component: {fileID: 7648987933957938576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,6 +1687,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1682,6 +1713,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &966369355299686796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5795122048903033448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1729,7 +1761,7 @@ GameObject:
   - component: {fileID: 4440000611084791405}
   - component: {fileID: 4184784622031168041}
   - component: {fileID: 9205972696498261758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh108
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1772,6 +1804,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1796,6 +1829,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &988589742971490075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,7 +1839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1153300503621497710}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawn Location
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1820,7 +1854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988589742971490075}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2699082160228653876}
@@ -1855,7 +1889,7 @@ Transform:
   - {fileID: 6581948885145186211}
   - {fileID: 1337391659222358794}
   - {fileID: 593573690979608611}
-  m_Father: {fileID: 6732264545619543173}
+  m_Father: {fileID: 567538640661128161}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042136385441630151
@@ -1867,7 +1901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593573690979608611}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1903,7 +1937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2431170233077537894}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1934,7 +1968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6843087808895861945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1965,7 +1999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7966127054634855450}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2001,7 +2035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5895951872915768588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2032,7 +2066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8166630049907441759}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6001694456700497650}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2094,7 +2128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6382660795493454774}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2127,7 +2161,7 @@ GameObject:
   - component: {fileID: 4949822915244616828}
   - component: {fileID: 3376893533849134821}
   - component: {fileID: 7617545920547302766}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2170,6 +2204,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2195,6 +2230,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1252758712334721402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,7 +2242,7 @@ GameObject:
   - component: {fileID: 4010821119375177806}
   - component: {fileID: 5301002164520844888}
   - component: {fileID: 353410319453398922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2249,6 +2285,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2274,6 +2311,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1253480998772358282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1648133307720186621}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_3_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2316,7 +2354,7 @@ GameObject:
   - component: {fileID: 6934088719482921155}
   - component: {fileID: 94789330410767308}
   - component: {fileID: 8721866675206371549}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh91
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2359,6 +2397,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2383,6 +2422,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1312495237248999929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,7 +2432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3676337748171772284}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2425,7 +2465,7 @@ GameObject:
   - component: {fileID: 4918869613163290293}
   - component: {fileID: 6764424382088967797}
   - component: {fileID: 780253750266157439}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2468,6 +2508,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2493,6 +2534,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1384183455835346219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,7 +2546,7 @@ GameObject:
   - component: {fileID: 1779293018564956514}
   - component: {fileID: 9057824076246612241}
   - component: {fileID: 6054840761529661684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2547,6 +2589,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2572,6 +2615,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1384895972919472542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,7 +2625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5315491751179503074}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2612,7 +2656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 129185249968596154}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,7 +2687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5559592994900212988}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2676,7 +2720,7 @@ GameObject:
   - component: {fileID: 6198371438211140972}
   - component: {fileID: 4643477470254544455}
   - component: {fileID: 5744811144133391418}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh92
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2719,6 +2763,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2744,6 +2789,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1461782811112214036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,7 +2801,7 @@ GameObject:
   - component: {fileID: 4680355438465547291}
   - component: {fileID: 5831317043573354457}
   - component: {fileID: 6226718801475768119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh103
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2798,6 +2844,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2822,6 +2869,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1508627710723893301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,7 +2879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3504397798168261996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2862,7 +2910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2016910287782474758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2895,7 +2943,7 @@ GameObject:
   - component: {fileID: 7366418932072771804}
   - component: {fileID: 726226929490486547}
   - component: {fileID: 6820502707698023947}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2938,6 +2986,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2963,6 +3012,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1559977633770662268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2972,7 +3022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2165017099356144514}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3003,7 +3053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1915991825181333794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3034,7 +3084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1796506032079552689}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3067,7 +3117,7 @@ GameObject:
   - component: {fileID: 5397091366549482115}
   - component: {fileID: 7229716807092337590}
   - component: {fileID: 6478089182221198340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3110,6 +3160,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3134,6 +3185,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1626103806561828214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3145,7 +3197,7 @@ GameObject:
   - component: {fileID: 1030697751268299307}
   - component: {fileID: 5263990293047675794}
   - component: {fileID: 9091239973048836658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3188,6 +3240,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3212,6 +3265,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1708127027095027164
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,7 +3277,7 @@ GameObject:
   - component: {fileID: 3470160594633945478}
   - component: {fileID: 147006003261835508}
   - component: {fileID: 7941658105826878535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3266,6 +3320,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3291,6 +3346,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1734438037386149299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3300,7 +3356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5395821276202784798}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3333,7 +3389,7 @@ GameObject:
   - component: {fileID: 6875760626919394855}
   - component: {fileID: 6631133271494677821}
   - component: {fileID: 4791834041002928429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3376,6 +3432,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3401,6 +3458,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465700926507
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,7 +3468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465700926506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3441,7 +3499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465717214209}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3474,7 +3532,7 @@ GameObject:
   - component: {fileID: 1735990465730100385}
   - component: {fileID: 1735990465730100391}
   - component: {fileID: 1735990465730100384}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3517,6 +3575,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3541,6 +3600,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465760250353
 GameObject:
   m_ObjectHideFlags: 0
@@ -3552,7 +3612,7 @@ GameObject:
   - component: {fileID: 1735990465760250352}
   - component: {fileID: 1735990465760250358}
   - component: {fileID: 1735990465760250359}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3595,6 +3655,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3620,6 +3681,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465776899348
 GameObject:
   m_ObjectHideFlags: 0
@@ -3629,7 +3691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465776899339}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3660,7 +3722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465789045751}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3691,7 +3753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465790640677}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3722,7 +3784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465793014479}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3755,7 +3817,7 @@ GameObject:
   - component: {fileID: 1735990465821627389}
   - component: {fileID: 1735990465821627379}
   - component: {fileID: 1735990465821627388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3798,6 +3860,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3823,6 +3886,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465839587672
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,7 +3896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465839587679}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3865,7 +3929,7 @@ GameObject:
   - component: {fileID: 1735990465846710696}
   - component: {fileID: 1735990465846710702}
   - component: {fileID: 1735990465846710703}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3908,6 +3972,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3933,6 +3998,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465856380743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,7 +4008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465856380742}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3973,7 +4039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465862158768}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4004,7 +4070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990465987179377}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4037,7 +4103,7 @@ GameObject:
   - component: {fileID: 1735990465990954019}
   - component: {fileID: 1735990465990954017}
   - component: {fileID: 1735990465990954018}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4080,6 +4146,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4105,6 +4172,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990465991633842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4116,7 +4184,7 @@ GameObject:
   - component: {fileID: 1735990465991633841}
   - component: {fileID: 1735990465991633847}
   - component: {fileID: 1735990465991633840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh93
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4159,6 +4227,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4184,6 +4253,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466019176956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,7 +4265,7 @@ GameObject:
   - component: {fileID: 1735990466019176947}
   - component: {fileID: 1735990466019176945}
   - component: {fileID: 1735990466019176946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4238,6 +4308,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4263,6 +4334,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466025527899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,7 +4346,7 @@ GameObject:
   - component: {fileID: 1735990466025527898}
   - component: {fileID: 1735990466025527896}
   - component: {fileID: 1735990466025527897}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4317,6 +4389,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4342,6 +4415,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466042437286
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,7 +4425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466042437285}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4384,7 +4458,7 @@ GameObject:
   - component: {fileID: 1735990466064813782}
   - component: {fileID: 1735990466064813780}
   - component: {fileID: 1735990466064813781}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4427,6 +4501,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4452,6 +4527,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466066840871
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,7 +4537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466066840870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4492,7 +4568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466086306667}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4530,7 +4606,7 @@ GameObject:
   - component: {fileID: 1735990466105000449}
   - component: {fileID: 1735990466105000455}
   - component: {fileID: 1735990466105000448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4573,6 +4649,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4598,6 +4675,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466113160076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4609,7 +4687,7 @@ GameObject:
   - component: {fileID: 1735990466113160067}
   - component: {fileID: 1735990466113160065}
   - component: {fileID: 1735990466113160066}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4652,6 +4730,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4676,6 +4755,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466159035905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4687,7 +4767,7 @@ GameObject:
   - component: {fileID: 1735990466159035904}
   - component: {fileID: 1735990466159035910}
   - component: {fileID: 1735990466159035911}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4730,6 +4810,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4755,6 +4836,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466186367948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4764,7 +4846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466186367939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,7 +4879,7 @@ GameObject:
   - component: {fileID: 1735990466199052357}
   - component: {fileID: 1735990466199060411}
   - component: {fileID: 1735990466199052356}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4840,6 +4922,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4865,6 +4948,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466210033676
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,7 +4960,7 @@ GameObject:
   - component: {fileID: 1735990466210033667}
   - component: {fileID: 1735990466210033665}
   - component: {fileID: 1735990466210033666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4919,6 +5003,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4943,6 +5028,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466231080116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,7 +5038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466231080107}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4985,7 +5071,7 @@ GameObject:
   - component: {fileID: 1735990466291596448}
   - component: {fileID: 1735990466291596454}
   - component: {fileID: 1735990466291596455}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5028,6 +5114,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5053,6 +5140,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466314312776
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,7 +5150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466314312783}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5098,7 +5186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466362124018}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5134,7 +5222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466373764205}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5172,7 +5260,7 @@ GameObject:
   - component: {fileID: 1735990466388883701}
   - component: {fileID: 1735990466388883691}
   - component: {fileID: 1735990466388883700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5215,6 +5303,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5240,6 +5329,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466426894003
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,7 +5339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466426894002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5282,7 +5372,7 @@ GameObject:
   - component: {fileID: 1735990466494567929}
   - component: {fileID: 1735990466494567935}
   - component: {fileID: 1735990466494567928}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5325,6 +5415,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5350,6 +5441,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466503663518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5361,7 +5453,7 @@ GameObject:
   - component: {fileID: 1735990466503663517}
   - component: {fileID: 1735990466503663507}
   - component: {fileID: 1735990466503663516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5404,6 +5496,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5429,6 +5522,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466506206169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5438,7 +5532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466506206168}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5471,7 +5565,7 @@ GameObject:
   - component: {fileID: 1735990466507626240}
   - component: {fileID: 1735990466507626246}
   - component: {fileID: 1735990466507626247}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5514,6 +5608,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5539,6 +5634,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466552518157
 GameObject:
   m_ObjectHideFlags: 0
@@ -5550,7 +5646,7 @@ GameObject:
   - component: {fileID: 1735990466552518156}
   - component: {fileID: 1735990466552518146}
   - component: {fileID: 1735990466552518147}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5593,6 +5689,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5618,6 +5715,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466557674152
 GameObject:
   m_ObjectHideFlags: 0
@@ -5629,7 +5727,7 @@ GameObject:
   - component: {fileID: 1735990466557674159}
   - component: {fileID: 1735990466557674157}
   - component: {fileID: 1735990466557674158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5672,6 +5770,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5697,6 +5796,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466588240247
 GameObject:
   m_ObjectHideFlags: 0
@@ -5708,7 +5808,7 @@ GameObject:
   - component: {fileID: 1735990466588240246}
   - component: {fileID: 1735990466588240244}
   - component: {fileID: 1735990466588240245}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5751,6 +5851,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5776,6 +5877,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466602971196
 GameObject:
   m_ObjectHideFlags: 0
@@ -5787,7 +5889,7 @@ GameObject:
   - component: {fileID: 1735990466602971187}
   - component: {fileID: 1735990466602971185}
   - component: {fileID: 1735990466602971186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5830,6 +5932,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5855,6 +5958,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466631750395
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,7 +5968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466631750394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5895,7 +5999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466641787102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5926,7 +6030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466657529805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5957,7 +6061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466706353065}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5995,7 +6099,7 @@ GameObject:
   - component: {fileID: 1735990466730322568}
   - component: {fileID: 1735990466730322574}
   - component: {fileID: 1735990466730322575}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6038,6 +6142,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6063,6 +6168,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466748548844
 GameObject:
   m_ObjectHideFlags: 0
@@ -6072,7 +6178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466748548835}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6105,7 +6211,7 @@ GameObject:
   - component: {fileID: 1735990466772592196}
   - component: {fileID: 1735990466772592058}
   - component: {fileID: 1735990466772592059}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6148,6 +6254,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6173,6 +6280,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466820413204
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,7 +6290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466820413195}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6213,7 +6321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466834882202}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6249,7 +6357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466847203649}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6282,7 +6390,7 @@ GameObject:
   - component: {fileID: 1735990466857552828}
   - component: {fileID: 1735990466857552818}
   - component: {fileID: 1735990466857552819}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh91
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6325,6 +6433,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6349,6 +6458,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466860891793
 GameObject:
   m_ObjectHideFlags: 0
@@ -6360,7 +6470,7 @@ GameObject:
   - component: {fileID: 1735990466860891792}
   - component: {fileID: 1735990466860891798}
   - component: {fileID: 1735990466860891799}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6403,6 +6513,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6428,6 +6539,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466869384414
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,7 +6551,7 @@ GameObject:
   - component: {fileID: 1735990466869384413}
   - component: {fileID: 1735990466869384403}
   - component: {fileID: 1735990466869384412}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6482,6 +6594,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6507,6 +6620,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466871704109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6518,7 +6632,7 @@ GameObject:
   - component: {fileID: 1735990466871704108}
   - component: {fileID: 1735990466871704098}
   - component: {fileID: 1735990466871704099}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6561,6 +6675,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6586,6 +6701,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466889935963
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,7 +6711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466889935962}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6628,7 +6744,7 @@ GameObject:
   - component: {fileID: 1735990466933610696}
   - component: {fileID: 1735990466933610702}
   - component: {fileID: 1735990466933610703}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh83
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6671,6 +6787,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6696,6 +6813,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466934768445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6707,7 +6825,7 @@ GameObject:
   - component: {fileID: 1735990466934768444}
   - component: {fileID: 1735990466934768434}
   - component: {fileID: 1735990466934768435}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6750,6 +6868,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6775,6 +6894,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466953665895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6786,7 +6906,7 @@ GameObject:
   - component: {fileID: 1735990466953665894}
   - component: {fileID: 1735990466953665892}
   - component: {fileID: 1735990466953665893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6829,6 +6949,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6854,6 +6975,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466956910415
 GameObject:
   m_ObjectHideFlags: 0
@@ -6863,7 +6985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466956910414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6896,7 +7018,7 @@ GameObject:
   - component: {fileID: 1735990466961672340}
   - component: {fileID: 1735990466961672330}
   - component: {fileID: 1735990466961672331}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6939,6 +7061,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6963,6 +7086,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990466973597774
 GameObject:
   m_ObjectHideFlags: 0
@@ -6972,7 +7096,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990466973597773}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7003,7 +7127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467056973688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7034,7 +7158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467064734822}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7070,7 +7194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467126666842}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7103,7 +7227,7 @@ GameObject:
   - component: {fileID: 1735990467143730077}
   - component: {fileID: 1735990467143730067}
   - component: {fileID: 1735990467143730076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh92
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7146,6 +7270,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7171,6 +7296,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467148430964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,7 +7306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467148430955}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7213,7 +7339,7 @@ GameObject:
   - component: {fileID: 1735990467210708472}
   - component: {fileID: 1735990467210708478}
   - component: {fileID: 1735990467210708479}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7256,6 +7382,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7281,6 +7408,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467216918819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7290,7 +7418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467216918818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7326,7 +7454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467237805898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7357,7 +7485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467257273934}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7388,7 +7516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467269667051}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7421,7 +7549,7 @@ GameObject:
   - component: {fileID: 1735990467277190780}
   - component: {fileID: 1735990467277190770}
   - component: {fileID: 1735990467277190771}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7464,6 +7592,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7489,6 +7618,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467286865003
 GameObject:
   m_ObjectHideFlags: 0
@@ -7500,7 +7630,7 @@ GameObject:
   - component: {fileID: 1735990467286865002}
   - component: {fileID: 1735990467286865000}
   - component: {fileID: 1735990467286865001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7543,6 +7673,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7567,6 +7698,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467299266937
 GameObject:
   m_ObjectHideFlags: 0
@@ -7576,7 +7708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467299266936}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7609,7 +7741,7 @@ GameObject:
   - component: {fileID: 1735990467350739954}
   - component: {fileID: 1735990467350739952}
   - component: {fileID: 1735990467350739953}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7652,6 +7784,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7676,6 +7809,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467374220494
 GameObject:
   m_ObjectHideFlags: 0
@@ -7687,7 +7821,7 @@ GameObject:
   - component: {fileID: 1735990467374220493}
   - component: {fileID: 1735990467374220483}
   - component: {fileID: 1735990467374220492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7730,6 +7864,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7755,6 +7890,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467387210518
 GameObject:
   m_ObjectHideFlags: 0
@@ -7766,7 +7902,7 @@ GameObject:
   - component: {fileID: 1735990467387210517}
   - component: {fileID: 1735990467387210507}
   - component: {fileID: 1735990467387210516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,6 +7945,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7834,6 +7971,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467410111221
 GameObject:
   m_ObjectHideFlags: 0
@@ -7845,7 +7983,7 @@ GameObject:
   - component: {fileID: 1735990467410111220}
   - component: {fileID: 1735990467410111210}
   - component: {fileID: 1735990467410111211}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh84
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7888,6 +8026,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7913,6 +8052,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467425544360
 GameObject:
   m_ObjectHideFlags: 0
@@ -7924,7 +8064,7 @@ GameObject:
   - component: {fileID: 1735990467425544367}
   - component: {fileID: 1735990467425544365}
   - component: {fileID: 1735990467425544366}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7967,6 +8107,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7992,6 +8133,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467454669482
 GameObject:
   m_ObjectHideFlags: 0
@@ -8003,7 +8145,7 @@ GameObject:
   - component: {fileID: 1735990467454669481}
   - component: {fileID: 1735990467454669487}
   - component: {fileID: 1735990467454669480}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8046,6 +8188,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8071,6 +8214,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467492977469
 GameObject:
   m_ObjectHideFlags: 0
@@ -8082,7 +8226,7 @@ GameObject:
   - component: {fileID: 1735990467492977468}
   - component: {fileID: 1735990467492977458}
   - component: {fileID: 1735990467492977459}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8125,6 +8269,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8150,6 +8295,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467563914333
 GameObject:
   m_ObjectHideFlags: 0
@@ -8159,7 +8305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467563914332}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8190,7 +8336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467595678765}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8221,7 +8367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467605457292}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8252,7 +8398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467625538578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8285,7 +8431,7 @@ GameObject:
   - component: {fileID: 1735990467629437292}
   - component: {fileID: 1735990467629437282}
   - component: {fileID: 1735990467629437283}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8328,6 +8474,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8353,6 +8500,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467638268532
 GameObject:
   m_ObjectHideFlags: 0
@@ -8364,7 +8512,7 @@ GameObject:
   - component: {fileID: 1735990467638268523}
   - component: {fileID: 1735990467638268521}
   - component: {fileID: 1735990467638268522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8407,6 +8555,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8432,6 +8581,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467650145227
 GameObject:
   m_ObjectHideFlags: 0
@@ -8441,7 +8591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467650145226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8474,7 +8624,7 @@ GameObject:
   - component: {fileID: 1735990467694242692}
   - component: {fileID: 1735990467694242810}
   - component: {fileID: 1735990467694242811}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8517,6 +8667,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8542,6 +8693,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467716181514
 GameObject:
   m_ObjectHideFlags: 0
@@ -8553,7 +8705,7 @@ GameObject:
   - component: {fileID: 1735990467716181513}
   - component: {fileID: 1735990467716181519}
   - component: {fileID: 1735990467716181512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8596,6 +8748,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8620,6 +8773,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1735990467734937475
 GameObject:
   m_ObjectHideFlags: 0
@@ -8629,7 +8783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467734937474}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8660,7 +8814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467772611683}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8691,7 +8845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735990467779222145}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8722,7 +8876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4378434786023976968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8755,7 +8909,7 @@ GameObject:
   - component: {fileID: 1665429108702273153}
   - component: {fileID: 1880794025153723296}
   - component: {fileID: 4838604726924672530}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8798,6 +8952,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8823,6 +8978,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1843760799089303208
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,7 +8988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 783362313994103668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8868,7 +9024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3460835494169986212}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8901,7 +9057,7 @@ GameObject:
   - component: {fileID: 8705533879966416964}
   - component: {fileID: 6504028386896537593}
   - component: {fileID: 5767775825804275496}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8944,6 +9100,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8969,6 +9126,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1981716716925747497
 GameObject:
   m_ObjectHideFlags: 0
@@ -8978,7 +9136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1093947833378163117}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9009,7 +9167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5280839563540758283}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9042,7 +9200,7 @@ GameObject:
   - component: {fileID: 944493761158082831}
   - component: {fileID: 1840920902875152637}
   - component: {fileID: 7753865726216706662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9085,6 +9243,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9110,6 +9269,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2080923443591073293
 GameObject:
   m_ObjectHideFlags: 0
@@ -9119,7 +9279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5108909411547440520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9152,7 +9312,7 @@ GameObject:
   - component: {fileID: 3772581931461690588}
   - component: {fileID: 8974295038507599266}
   - component: {fileID: 4920321969763299506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9195,6 +9355,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9220,6 +9381,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2086462697928900513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9229,7 +9391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5953086792797579174}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9262,7 +9424,7 @@ GameObject:
   - component: {fileID: 5482659622903960604}
   - component: {fileID: 8376663981919454791}
   - component: {fileID: 6474523082778035139}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9305,6 +9467,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9330,6 +9493,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2207749532211300738
 GameObject:
   m_ObjectHideFlags: 0
@@ -9341,7 +9505,7 @@ GameObject:
   - component: {fileID: 1701980678811436050}
   - component: {fileID: 5074092398120197810}
   - component: {fileID: 3187546094280710133}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9384,6 +9548,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9408,6 +9573,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2227843381157925883
 GameObject:
   m_ObjectHideFlags: 0
@@ -9419,7 +9585,7 @@ GameObject:
   - component: {fileID: 1786881299627570456}
   - component: {fileID: 9123235764240892784}
   - component: {fileID: 2109880263271768843}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9462,6 +9628,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9486,6 +9653,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2241321190705139416
 GameObject:
   m_ObjectHideFlags: 0
@@ -9495,7 +9663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1439159776706889974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9526,7 +9694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5617363657311083120}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9562,7 +9730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7455866560447581089}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9595,7 +9763,7 @@ GameObject:
   - component: {fileID: 6446650586163477055}
   - component: {fileID: 1298735397150754606}
   - component: {fileID: 1560312955683233620}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9638,6 +9806,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9662,6 +9831,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2341640926037524573
 GameObject:
   m_ObjectHideFlags: 0
@@ -9671,7 +9841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6383791504332063660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9704,7 +9874,7 @@ GameObject:
   - component: {fileID: 3379781296732792547}
   - component: {fileID: 8354318748934022245}
   - component: {fileID: 1099700799990722680}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9747,6 +9917,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9772,6 +9943,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2350651076590852634
 GameObject:
   m_ObjectHideFlags: 0
@@ -9783,7 +9955,7 @@ GameObject:
   - component: {fileID: 2024707481391909452}
   - component: {fileID: 692374104796496856}
   - component: {fileID: 1738535591385258176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9826,6 +9998,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9851,6 +10024,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2372039185866094482
 GameObject:
   m_ObjectHideFlags: 0
@@ -9860,7 +10034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809653928092061190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9893,7 +10067,7 @@ GameObject:
   - component: {fileID: 1543384803503525016}
   - component: {fileID: 5591417766558949337}
   - component: {fileID: 5334612824126274380}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9936,6 +10110,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9961,6 +10136,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2385179344272082928
 GameObject:
   m_ObjectHideFlags: 0
@@ -9972,7 +10148,7 @@ GameObject:
   - component: {fileID: 1140036936583013908}
   - component: {fileID: 3140656225107247392}
   - component: {fileID: 592076317845447475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10015,6 +10191,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10039,6 +10216,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2386750554646117889
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,7 +10226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 664218116017356924}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10079,7 +10257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8492048982857801586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10110,7 +10288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6270349262784571897}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10143,7 +10321,7 @@ GameObject:
   - component: {fileID: 5141272560386383374}
   - component: {fileID: 7915327830668217012}
   - component: {fileID: 516440219393066529}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10186,6 +10364,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10211,6 +10390,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2538748110259300620
 GameObject:
   m_ObjectHideFlags: 0
@@ -10220,7 +10400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7328883765875461021}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10253,7 +10433,7 @@ GameObject:
   - component: {fileID: 3956024877612803517}
   - component: {fileID: 824148588497406619}
   - component: {fileID: 5881371869748823757}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10296,6 +10476,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10321,6 +10502,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2605513624058915533
 GameObject:
   m_ObjectHideFlags: 0
@@ -10330,7 +10512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6134417551709705034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10363,7 +10545,7 @@ GameObject:
   - component: {fileID: 4844403282820013625}
   - component: {fileID: 1321878019070448544}
   - component: {fileID: 1621409026094230228}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10406,6 +10588,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10431,6 +10614,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2633522879588459587
 GameObject:
   m_ObjectHideFlags: 0
@@ -10440,7 +10624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4988261845211458485}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10471,7 +10655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3815650289065418968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10502,7 +10686,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3957388466133865899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10535,7 +10719,7 @@ GameObject:
   - component: {fileID: 6281529013643361044}
   - component: {fileID: 2983627607129203134}
   - component: {fileID: 3653982314553804922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10578,6 +10762,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10603,6 +10788,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2742084398229419798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10614,7 +10800,7 @@ GameObject:
   - component: {fileID: 7752635566257934515}
   - component: {fileID: 3396197337699239881}
   - component: {fileID: 4673981614844975523}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10657,6 +10843,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10681,6 +10868,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2770413986626510923
 GameObject:
   m_ObjectHideFlags: 0
@@ -10690,7 +10878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 912487177405945353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10721,7 +10909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7239301481110323553}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_3_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10754,7 +10942,7 @@ GameObject:
   - component: {fileID: 6070815060947663474}
   - component: {fileID: 9097540296963786906}
   - component: {fileID: 2895823616591840418}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10797,6 +10985,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10821,6 +11010,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2828280015285928850
 GameObject:
   m_ObjectHideFlags: 0
@@ -10832,7 +11022,7 @@ GameObject:
   - component: {fileID: 7820009448755957155}
   - component: {fileID: 8225362010561904174}
   - component: {fileID: 7699324263086249842}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10875,6 +11065,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10900,6 +11091,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2858496461886226019
 GameObject:
   m_ObjectHideFlags: 0
@@ -10911,7 +11103,7 @@ GameObject:
   - component: {fileID: 7703543415062739406}
   - component: {fileID: 4796805353155805274}
   - component: {fileID: 8220564531832773414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10954,6 +11146,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10979,6 +11172,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2899813791544165509
 GameObject:
   m_ObjectHideFlags: 0
@@ -10988,7 +11182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3048166401516832446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11019,7 +11213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7152168688143256578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11050,7 +11244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5860670765608850052}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11081,7 +11275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 244328275513486920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11112,7 +11306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8233614943519296164}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11143,7 +11337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932390405789193578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11174,7 +11368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2470326992059308177}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11205,7 +11399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1139841683114043905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11243,7 +11437,7 @@ GameObject:
   - component: {fileID: 5660212855098087449}
   - component: {fileID: 3034672396820798326}
   - component: {fileID: 5253584086233107376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11286,6 +11480,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11311,6 +11506,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3124890543203099398
 GameObject:
   m_ObjectHideFlags: 0
@@ -11320,7 +11516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3390558515016642848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11351,7 +11547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420333299778341424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11384,7 +11580,7 @@ GameObject:
   - component: {fileID: 3644592744806967993}
   - component: {fileID: 9048713442027992669}
   - component: {fileID: 3380727671008283485}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11427,6 +11623,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11452,6 +11649,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3246056190476575031
 GameObject:
   m_ObjectHideFlags: 0
@@ -11463,7 +11661,7 @@ GameObject:
   - component: {fileID: 6102147310652258751}
   - component: {fileID: 5565336469713491265}
   - component: {fileID: 5312942854606127209}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11506,6 +11704,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11531,6 +11730,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3248758914106116446
 GameObject:
   m_ObjectHideFlags: 0
@@ -11540,7 +11740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4033964467443103257}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11571,7 +11771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 454840504856938371}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11602,7 +11802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 381887730933398947}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11635,7 +11835,7 @@ GameObject:
   - component: {fileID: 7671876135571776578}
   - component: {fileID: 5772145382507530032}
   - component: {fileID: 8733071630254460528}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11678,6 +11878,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11703,6 +11904,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3301931826833016291
 GameObject:
   m_ObjectHideFlags: 0
@@ -11714,7 +11916,7 @@ GameObject:
   - component: {fileID: 2864496149732155525}
   - component: {fileID: 8225797216484223494}
   - component: {fileID: 6373272311678532773}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11757,6 +11959,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11782,6 +11985,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3366616935729013737
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,7 +11997,7 @@ GameObject:
   - component: {fileID: 6092222440714914069}
   - component: {fileID: 5487907992975928121}
   - component: {fileID: 6537861850193952149}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11836,6 +12040,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11860,6 +12065,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3381603941664374019
 GameObject:
   m_ObjectHideFlags: 0
@@ -11869,7 +12075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7458365508807431704}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11905,7 +12111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5367199890551860001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11936,7 +12142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4085396605503881335}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11972,7 +12178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2533535034304038439}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12008,7 +12214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8066103860791594193}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12039,7 +12245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7751650786618122872}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12072,7 +12278,7 @@ GameObject:
   - component: {fileID: 7973734106631576271}
   - component: {fileID: 2901787964735944362}
   - component: {fileID: 5996679720678708110}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12115,6 +12321,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12139,6 +12346,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3503501621086124535
 GameObject:
   m_ObjectHideFlags: 0
@@ -12150,7 +12358,7 @@ GameObject:
   - component: {fileID: 8391957487216531144}
   - component: {fileID: 351343643908202500}
   - component: {fileID: 344534425339543739}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12193,6 +12401,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12218,6 +12427,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3542844870201645626
 GameObject:
   m_ObjectHideFlags: 0
@@ -12227,7 +12437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7876730534680607887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12258,7 +12468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8899201807279299220}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12289,7 +12499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5161743707358515446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12322,7 +12532,7 @@ GameObject:
   - component: {fileID: 916306164787458298}
   - component: {fileID: 4206837042819298808}
   - component: {fileID: 3784902793747770677}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12365,6 +12575,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12390,6 +12601,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3735213850132521210
 GameObject:
   m_ObjectHideFlags: 0
@@ -12401,7 +12613,7 @@ GameObject:
   - component: {fileID: 7547940521613933418}
   - component: {fileID: 2094466481154015344}
   - component: {fileID: 7495710662305457983}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12444,6 +12656,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12468,6 +12681,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3743294353892412724
 GameObject:
   m_ObjectHideFlags: 0
@@ -12479,7 +12693,7 @@ GameObject:
   - component: {fileID: 4078199402874293505}
   - component: {fileID: 5624050094187713819}
   - component: {fileID: 2454240868283352596}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh93
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12522,6 +12736,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12547,6 +12762,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3748994877498520598
 GameObject:
   m_ObjectHideFlags: 0
@@ -12558,7 +12774,7 @@ GameObject:
   - component: {fileID: 971869817799415938}
   - component: {fileID: 3821169632853387643}
   - component: {fileID: 5447240370845049400}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12601,6 +12817,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12626,6 +12843,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3761565054039970732
 GameObject:
   m_ObjectHideFlags: 0
@@ -12635,7 +12853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2854834363735559182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12666,7 +12884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1125922314575611399}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12697,7 +12915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8941055512193231791}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12730,7 +12948,7 @@ GameObject:
   - component: {fileID: 7102669063076587561}
   - component: {fileID: 6432696653951536384}
   - component: {fileID: 1712136001021301155}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12773,6 +12991,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12797,6 +13016,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3841349041021830794
 GameObject:
   m_ObjectHideFlags: 0
@@ -12808,7 +13028,7 @@ GameObject:
   - component: {fileID: 7963698197204132247}
   - component: {fileID: 5976953078249470826}
   - component: {fileID: 511696808156985636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12851,6 +13071,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12876,6 +13097,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3846437424704915390
 GameObject:
   m_ObjectHideFlags: 0
@@ -12885,7 +13107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2577195917150651922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12918,7 +13140,7 @@ GameObject:
   - component: {fileID: 1593525798203313969}
   - component: {fileID: 4852787085517343256}
   - component: {fileID: 5416084286326223156}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12961,6 +13183,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12986,6 +13209,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3892238851289814308
 GameObject:
   m_ObjectHideFlags: 0
@@ -12997,7 +13221,7 @@ GameObject:
   - component: {fileID: 3454435806230781759}
   - component: {fileID: 3404829553534136585}
   - component: {fileID: 5765849294132624186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13040,6 +13264,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13065,6 +13290,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3910014469914444146
 GameObject:
   m_ObjectHideFlags: 0
@@ -13074,7 +13300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3987816645448902588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13107,7 +13333,7 @@ GameObject:
   - component: {fileID: 833053963385186307}
   - component: {fileID: 5144031745768959405}
   - component: {fileID: 2363742953031895451}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13150,6 +13376,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13175,6 +13402,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3949840932357665919
 GameObject:
   m_ObjectHideFlags: 0
@@ -13184,7 +13412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4804501477010823012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13215,7 +13443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7449907717720419416}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13248,7 +13476,7 @@ GameObject:
   - component: {fileID: 6062181255414104395}
   - component: {fileID: 8370174640875862787}
   - component: {fileID: 8940272521826782125}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13291,6 +13519,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13316,6 +13545,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3992580292351338414
 GameObject:
   m_ObjectHideFlags: 0
@@ -13325,7 +13555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8908973368265799981}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pellet1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13340,11 +13570,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3992580292351338414}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2130600331128233139}
-  m_Father: {fileID: 6732264545619543173}
+  m_Father: {fileID: 567538640661128161}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4039453913808071180
@@ -13356,7 +13586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7344172231714673003}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13389,7 +13619,7 @@ GameObject:
   - component: {fileID: 6070927608890813882}
   - component: {fileID: 7301886196518946758}
   - component: {fileID: 5213216989809184534}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh105
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13432,6 +13662,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13457,6 +13688,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4053212648185525608
 GameObject:
   m_ObjectHideFlags: 0
@@ -13468,7 +13700,7 @@ GameObject:
   - component: {fileID: 942546866391086441}
   - component: {fileID: 5345538117506660310}
   - component: {fileID: 3650016079504287376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13511,6 +13743,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13536,6 +13769,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4069562742383663957
 GameObject:
   m_ObjectHideFlags: 0
@@ -13545,7 +13779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3601847447742777684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13576,7 +13810,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4221350018784301907}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13609,7 +13843,7 @@ GameObject:
   - component: {fileID: 5449191133492369856}
   - component: {fileID: 492388437043123978}
   - component: {fileID: 651648111070645561}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13652,6 +13886,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13677,6 +13912,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4125049398274660556
 GameObject:
   m_ObjectHideFlags: 0
@@ -13686,7 +13922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6581948885145186211}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13722,7 +13958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5948350805408331237}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13753,7 +13989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5499776868193378130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13786,7 +14022,7 @@ GameObject:
   - component: {fileID: 2700086291078119961}
   - component: {fileID: 1214824670377930220}
   - component: {fileID: 1029164613788173785}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13829,6 +14065,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13853,6 +14090,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4164807890291427304
 GameObject:
   m_ObjectHideFlags: 0
@@ -13864,7 +14102,7 @@ GameObject:
   - component: {fileID: 8774813722338513676}
   - component: {fileID: 3591340368151867164}
   - component: {fileID: 3859097498260298932}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13907,6 +14145,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13932,6 +14171,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4246328364164011902
 GameObject:
   m_ObjectHideFlags: 0
@@ -13943,7 +14183,7 @@ GameObject:
   - component: {fileID: 1545990150775664932}
   - component: {fileID: 2118589475120495983}
   - component: {fileID: 5475587354604941243}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13986,6 +14226,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14011,6 +14252,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4264355228113168271
 GameObject:
   m_ObjectHideFlags: 0
@@ -14020,7 +14262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8836281577727131435}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14051,7 +14293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628810147797630196}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14082,7 +14324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2370687366691140054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14113,7 +14355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738973104708346199}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14144,7 +14386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 82639073142114346}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14177,7 +14419,7 @@ GameObject:
   - component: {fileID: 5686422765086642994}
   - component: {fileID: 6332982508778661702}
   - component: {fileID: 6732047961748958849}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14220,6 +14462,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14245,6 +14488,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4425018645260483155
 GameObject:
   m_ObjectHideFlags: 0
@@ -14254,7 +14498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3813434520865534115}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14287,7 +14531,7 @@ GameObject:
   - component: {fileID: 403406042748755796}
   - component: {fileID: 7838939246930163654}
   - component: {fileID: 2417150582791240063}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14330,6 +14574,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14355,6 +14600,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4481062409670643528
 GameObject:
   m_ObjectHideFlags: 0
@@ -14366,7 +14612,7 @@ GameObject:
   - component: {fileID: 4961037394892850309}
   - component: {fileID: 1845915947551470258}
   - component: {fileID: 4536718050432983792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14409,6 +14655,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14434,6 +14681,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4528438482930924415
 GameObject:
   m_ObjectHideFlags: 0
@@ -14443,7 +14691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8902494374672680810}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14474,7 +14722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8870814643368150230}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14507,7 +14755,7 @@ GameObject:
   - component: {fileID: 1073049882143097044}
   - component: {fileID: 6105225985936389134}
   - component: {fileID: 9071479753051839485}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14550,6 +14798,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14575,6 +14824,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4561826729949703513
 GameObject:
   m_ObjectHideFlags: 0
@@ -14586,7 +14836,7 @@ GameObject:
   - component: {fileID: 986410669165249688}
   - component: {fileID: 7481955597209833249}
   - component: {fileID: 6674211304356006079}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14629,6 +14879,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14653,6 +14904,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4611310555507106235
 GameObject:
   m_ObjectHideFlags: 0
@@ -14664,7 +14916,7 @@ GameObject:
   - component: {fileID: 3978238676701424384}
   - component: {fileID: 8234421348287362429}
   - component: {fileID: 827479676779839580}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14707,6 +14959,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14732,6 +14985,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4653982778799465305
 GameObject:
   m_ObjectHideFlags: 0
@@ -14743,7 +14997,7 @@ GameObject:
   - component: {fileID: 6024407600827732372}
   - component: {fileID: 4927661948312023484}
   - component: {fileID: 5438026876727300975}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14786,6 +15040,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14811,6 +15066,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4752529210646153928
 GameObject:
   m_ObjectHideFlags: 0
@@ -14822,7 +15078,7 @@ GameObject:
   - component: {fileID: 9181301200304890574}
   - component: {fileID: 7934759888930182165}
   - component: {fileID: 483105099853814669}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14865,6 +15121,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14890,6 +15147,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4781124034704101945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14901,7 +15159,7 @@ GameObject:
   - component: {fileID: 5560451376912710232}
   - component: {fileID: 1888435387909310094}
   - component: {fileID: 4711961827477830913}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh102
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14944,6 +15202,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14969,6 +15228,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4796396533274054783
 GameObject:
   m_ObjectHideFlags: 0
@@ -14978,7 +15238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 814298612608390729}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15009,7 +15269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1334428806714424391}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15042,7 +15302,7 @@ GameObject:
   - component: {fileID: 6051129713115391166}
   - component: {fileID: 653997238089120243}
   - component: {fileID: 4635549329503990204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15085,6 +15345,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15110,6 +15371,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4830469844004740764
 GameObject:
   m_ObjectHideFlags: 0
@@ -15119,7 +15381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8339137480199489576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15150,7 +15412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6394393303778066735}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15188,7 +15450,7 @@ GameObject:
   - component: {fileID: 5049237274169918348}
   - component: {fileID: 1312546423573014597}
   - component: {fileID: 9098715017539430118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15231,6 +15493,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15256,6 +15519,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4887792269378707911
 GameObject:
   m_ObjectHideFlags: 0
@@ -15265,7 +15529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2741829711805615792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15298,7 +15562,7 @@ GameObject:
   - component: {fileID: 3576321583745973022}
   - component: {fileID: 2027278617559185312}
   - component: {fileID: 6407869409026930190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15341,6 +15605,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15366,6 +15631,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5011181134226288542
 GameObject:
   m_ObjectHideFlags: 0
@@ -15377,7 +15643,7 @@ GameObject:
   - component: {fileID: 2755379208018547519}
   - component: {fileID: 2031219276246877612}
   - component: {fileID: 3709527481755870828}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15420,6 +15686,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15445,6 +15712,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5088337965573130899
 GameObject:
   m_ObjectHideFlags: 0
@@ -15456,7 +15724,7 @@ GameObject:
   - component: {fileID: 5260894200857469236}
   - component: {fileID: 3243118670977761216}
   - component: {fileID: 6306096535351437626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15499,6 +15767,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15524,6 +15793,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5151056107065382119
 GameObject:
   m_ObjectHideFlags: 0
@@ -15533,7 +15803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403737460610527363}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15564,7 +15834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6767977635425829289}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15597,7 +15867,7 @@ GameObject:
   - component: {fileID: 386557654392701170}
   - component: {fileID: 538175324030054098}
   - component: {fileID: 8415462047627278316}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15640,6 +15910,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15665,6 +15936,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5340115979776053583
 GameObject:
   m_ObjectHideFlags: 0
@@ -15676,7 +15948,7 @@ GameObject:
   - component: {fileID: 4501725218132438282}
   - component: {fileID: 8929468821198463073}
   - component: {fileID: 1080099857779723681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15719,6 +15991,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15744,6 +16017,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5416853572148509647
 GameObject:
   m_ObjectHideFlags: 0
@@ -15755,7 +16029,7 @@ GameObject:
   - component: {fileID: 4492885771037428014}
   - component: {fileID: 6016643565628095291}
   - component: {fileID: 8827079866301558097}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15798,6 +16072,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15823,6 +16098,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5453686541510040937
 GameObject:
   m_ObjectHideFlags: 0
@@ -15832,7 +16108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3385195339882459438}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15868,7 +16144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1393030406479629334}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15899,7 +16175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4018879896014420121}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15930,7 +16206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1367304062081234857}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15963,7 +16239,7 @@ GameObject:
   - component: {fileID: 318437896087085246}
   - component: {fileID: 3808347215020757276}
   - component: {fileID: 761123646919443152}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16006,6 +16282,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16031,6 +16308,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5673668592304158318
 GameObject:
   m_ObjectHideFlags: 0
@@ -16040,7 +16318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3996567764102573073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16078,7 +16356,7 @@ GameObject:
   - component: {fileID: 221235296114400465}
   - component: {fileID: 3021382449742419219}
   - component: {fileID: 8322852173067396225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16121,6 +16399,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16146,6 +16425,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5690094826406174201
 GameObject:
   m_ObjectHideFlags: 0
@@ -16155,7 +16435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7561696335392566507}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16186,7 +16466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9014235418549432072}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16219,7 +16499,7 @@ GameObject:
   - component: {fileID: 6589712791253975343}
   - component: {fileID: 8533402840538493460}
   - component: {fileID: 5664591678449546655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16262,6 +16542,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16286,6 +16567,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5775131838009035763
 GameObject:
   m_ObjectHideFlags: 0
@@ -16295,7 +16577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 927094773731638865}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16328,7 +16610,7 @@ GameObject:
   - component: {fileID: 5230914016339559105}
   - component: {fileID: 1069190317660317331}
   - component: {fileID: 3353623109831157609}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16371,6 +16653,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16396,6 +16679,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5816458899343320844
 GameObject:
   m_ObjectHideFlags: 0
@@ -16407,7 +16691,7 @@ GameObject:
   - component: {fileID: 1609778198883688770}
   - component: {fileID: 4484519139753843305}
   - component: {fileID: 7470298730728788955}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16450,6 +16734,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16475,6 +16760,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5833916148995358214
 GameObject:
   m_ObjectHideFlags: 0
@@ -16486,7 +16772,7 @@ GameObject:
   - component: {fileID: 3488601849142925464}
   - component: {fileID: 2891584172750798012}
   - component: {fileID: 6639485239297816355}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16529,6 +16815,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16554,6 +16841,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5860465507629150222
 GameObject:
   m_ObjectHideFlags: 0
@@ -16565,7 +16853,7 @@ GameObject:
   - component: {fileID: 5194346104103814606}
   - component: {fileID: 3664194266921609552}
   - component: {fileID: 6574850254956107108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16608,6 +16896,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16633,6 +16922,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5867712647603374177
 GameObject:
   m_ObjectHideFlags: 0
@@ -16644,7 +16934,7 @@ GameObject:
   - component: {fileID: 5693172586586695655}
   - component: {fileID: 7447880891601672447}
   - component: {fileID: 556385622794772489}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16687,6 +16977,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16711,6 +17002,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5879395501187923211
 GameObject:
   m_ObjectHideFlags: 0
@@ -16722,7 +17014,7 @@ GameObject:
   - component: {fileID: 6707388358541836786}
   - component: {fileID: 6152714027818448265}
   - component: {fileID: 2633289629666085062}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh101
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16765,6 +17057,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16789,6 +17082,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5890477983664778610
 GameObject:
   m_ObjectHideFlags: 0
@@ -16798,7 +17092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4229726045054192075}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16834,7 +17128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434686703532949448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16867,7 +17161,7 @@ GameObject:
   - component: {fileID: 6237539918906266734}
   - component: {fileID: 819146639176336400}
   - component: {fileID: 7513339340352638544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16910,6 +17204,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16934,6 +17229,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5941216442727036453
 GameObject:
   m_ObjectHideFlags: 0
@@ -16945,7 +17241,7 @@ GameObject:
   - component: {fileID: 6358703390775967015}
   - component: {fileID: 1042707968173079531}
   - component: {fileID: 8270590178259861064}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16988,6 +17284,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17013,6 +17310,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5953255537916675503
 GameObject:
   m_ObjectHideFlags: 0
@@ -17022,7 +17320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6650988833019262446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17060,7 +17358,7 @@ GameObject:
   - component: {fileID: 4848229471808444300}
   - component: {fileID: 4917988612334068297}
   - component: {fileID: 1596367464699387455}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17103,6 +17401,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17128,6 +17427,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6038468340631185249
 GameObject:
   m_ObjectHideFlags: 0
@@ -17137,7 +17437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 745493592617713503}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17168,7 +17468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3820387341125318528}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17201,7 +17501,7 @@ GameObject:
   - component: {fileID: 6400537472138260890}
   - component: {fileID: 5057663855809733806}
   - component: {fileID: 3240836363394632676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17244,6 +17544,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17269,6 +17570,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6081459248503743506
 GameObject:
   m_ObjectHideFlags: 0
@@ -17280,7 +17582,7 @@ GameObject:
   - component: {fileID: 7585766843602507311}
   - component: {fileID: 6557333412333031799}
   - component: {fileID: 5418203692492300241}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17323,6 +17625,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17348,6 +17651,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6137386065615642608
 GameObject:
   m_ObjectHideFlags: 0
@@ -17357,7 +17661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6291912666059888947}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17388,7 +17692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5896849587346289252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_laterale1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17419,7 +17723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8287668045319487629}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17450,7 +17754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2699082160228653876}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17488,7 +17792,7 @@ GameObject:
   - component: {fileID: 8477780320607535020}
   - component: {fileID: 5323750633676921340}
   - component: {fileID: 9041832730417953898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17531,6 +17835,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17555,6 +17860,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6384824345205233619
 GameObject:
   m_ObjectHideFlags: 0
@@ -17564,7 +17870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5585940313828830736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17597,7 +17903,7 @@ GameObject:
   - component: {fileID: 20415871991151950}
   - component: {fileID: 7840863007464235067}
   - component: {fileID: 1163541818195968473}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17640,6 +17946,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17665,6 +17972,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6417444161983499575
 GameObject:
   m_ObjectHideFlags: 0
@@ -17674,7 +17982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3776576254718514745}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17705,7 +18013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7178976411763955378}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17738,7 +18046,7 @@ GameObject:
   - component: {fileID: 8385290725816430735}
   - component: {fileID: 8564209766734610497}
   - component: {fileID: 6967262482681793217}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17781,6 +18089,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17806,6 +18115,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6517311202027011341
 GameObject:
   m_ObjectHideFlags: 0
@@ -17817,7 +18127,7 @@ GameObject:
   - component: {fileID: 4943261647265284638}
   - component: {fileID: 1208561971315196844}
   - component: {fileID: 302543764984782319}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17860,6 +18170,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17885,6 +18196,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6523276730634109528
 GameObject:
   m_ObjectHideFlags: 0
@@ -17896,7 +18208,7 @@ GameObject:
   - component: {fileID: 101007146631456909}
   - component: {fileID: 1654492769192425132}
   - component: {fileID: 7543662787953659597}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17939,6 +18251,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17963,6 +18276,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6543218237997501354
 GameObject:
   m_ObjectHideFlags: 0
@@ -17974,7 +18288,7 @@ GameObject:
   - component: {fileID: 1892975049014406070}
   - component: {fileID: 5183788721171341059}
   - component: {fileID: 913824724620339403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18017,6 +18331,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18042,6 +18357,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6581950257845624571
 GameObject:
   m_ObjectHideFlags: 0
@@ -18053,7 +18369,7 @@ GameObject:
   - component: {fileID: 2769784806766333558}
   - component: {fileID: 3666216757097258518}
   - component: {fileID: 8074171960367230871}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18096,6 +18412,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18121,6 +18438,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6598304163533486779
 GameObject:
   m_ObjectHideFlags: 0
@@ -18130,7 +18448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8495220513583356635}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18168,7 +18486,7 @@ GameObject:
   - component: {fileID: 6907850978073314093}
   - component: {fileID: 8460551909922496550}
   - component: {fileID: 7615232771388585896}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18211,6 +18529,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18236,6 +18555,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6620971853901441836
 GameObject:
   m_ObjectHideFlags: 0
@@ -18245,7 +18565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4119494945019412372}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18276,7 +18596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3134247868378557337}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18309,7 +18629,7 @@ GameObject:
   - component: {fileID: 5025117985035905713}
   - component: {fileID: 8653604176535581818}
   - component: {fileID: 8850431769232558404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18352,6 +18672,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18377,6 +18698,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6720471594980289286
 GameObject:
   m_ObjectHideFlags: 0
@@ -18388,7 +18710,7 @@ GameObject:
   - component: {fileID: 5463391241930710103}
   - component: {fileID: 2740730648662812893}
   - component: {fileID: 5146865785842289591}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18431,6 +18753,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18455,6 +18778,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6759241065399848276
 GameObject:
   m_ObjectHideFlags: 0
@@ -18466,7 +18790,7 @@ GameObject:
   - component: {fileID: 6044205421469243105}
   - component: {fileID: 3417272750401070476}
   - component: {fileID: 7761401264487159141}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh109
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18509,6 +18833,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18533,6 +18858,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6789882756861449612
 GameObject:
   m_ObjectHideFlags: 0
@@ -18542,7 +18868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3943996381700230410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18575,7 +18901,7 @@ GameObject:
   - component: {fileID: 1957247126111448938}
   - component: {fileID: 7356914440817377221}
   - component: {fileID: 6371926564276201643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18618,6 +18944,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18643,6 +18970,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6882224826726859509
 GameObject:
   m_ObjectHideFlags: 0
@@ -18652,7 +18980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6273963588662083256}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18685,7 +19013,7 @@ GameObject:
   - component: {fileID: 4543513379558184479}
   - component: {fileID: 6263732146351503261}
   - component: {fileID: 2220156038224139727}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18728,6 +19056,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18753,6 +19082,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6930317429981815531
 GameObject:
   m_ObjectHideFlags: 0
@@ -18764,7 +19094,7 @@ GameObject:
   - component: {fileID: 5864005635984672640}
   - component: {fileID: 1589973485292852390}
   - component: {fileID: 2378649229849003576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18807,6 +19137,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18832,6 +19163,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6950233342227466008
 GameObject:
   m_ObjectHideFlags: 0
@@ -18841,7 +19173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2438415770759258404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bois4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18874,7 +19206,7 @@ GameObject:
   - component: {fileID: 6875297765250215943}
   - component: {fileID: 5100397755524665334}
   - component: {fileID: 6913436768112784237}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18917,6 +19249,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18942,6 +19275,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6955535344169853327
 GameObject:
   m_ObjectHideFlags: 0
@@ -18951,7 +19285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7931047363700400978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18984,7 +19318,7 @@ GameObject:
   - component: {fileID: 411069887777731738}
   - component: {fileID: 8304452444619857790}
   - component: {fileID: 8785755496441254032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19027,6 +19361,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19052,6 +19387,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7001584038146418138
 GameObject:
   m_ObjectHideFlags: 0
@@ -19061,7 +19397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3060623708277410572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19092,7 +19428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7471923393252647909}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19130,7 +19466,7 @@ GameObject:
   - component: {fileID: 5614846732255108896}
   - component: {fileID: 1063393586517494153}
   - component: {fileID: 3648521858275106900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh98
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19173,6 +19509,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19198,6 +19535,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7068817495148218382
 GameObject:
   m_ObjectHideFlags: 0
@@ -19207,7 +19545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6916273360277937148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19240,7 +19578,7 @@ GameObject:
   - component: {fileID: 4859999420330592766}
   - component: {fileID: 7751550152210179001}
   - component: {fileID: 4505522041014127498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19283,6 +19621,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19308,6 +19647,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7100514174932931008
 GameObject:
   m_ObjectHideFlags: 0
@@ -19319,7 +19659,7 @@ GameObject:
   - component: {fileID: 3157900460836776500}
   - component: {fileID: 6219344123209992543}
   - component: {fileID: 8995240850982739969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh84
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19362,6 +19702,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19387,6 +19728,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7115739062196066098
 GameObject:
   m_ObjectHideFlags: 0
@@ -19398,7 +19740,7 @@ GameObject:
   - component: {fileID: 660799035141958168}
   - component: {fileID: 5023625111467780095}
   - component: {fileID: 160856637881098532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19441,6 +19783,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19466,6 +19809,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7152575540585912157
 GameObject:
   m_ObjectHideFlags: 0
@@ -19477,7 +19821,7 @@ GameObject:
   - component: {fileID: 8000363725426847580}
   - component: {fileID: 179970475390560104}
   - component: {fileID: 6021157113649879361}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19520,6 +19864,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19545,6 +19890,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7161712875300238960
 GameObject:
   m_ObjectHideFlags: 0
@@ -19554,7 +19900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1823937145439057213}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19587,7 +19933,7 @@ GameObject:
   - component: {fileID: 729897703979842836}
   - component: {fileID: 4551251623157896389}
   - component: {fileID: 6623669378926782848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19630,6 +19976,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19655,6 +20002,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7228442541597173947
 GameObject:
   m_ObjectHideFlags: 0
@@ -19664,7 +20012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5901760685237161155}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19697,7 +20045,7 @@ GameObject:
   - component: {fileID: 1972619016216176798}
   - component: {fileID: 7873191392457739055}
   - component: {fileID: 3734007011638897846}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19740,6 +20088,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19765,6 +20114,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7327617587434746679
 GameObject:
   m_ObjectHideFlags: 0
@@ -19774,7 +20124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5365079409304732168}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19807,7 +20157,7 @@ GameObject:
   - component: {fileID: 5797457699325012636}
   - component: {fileID: 6547087528378827998}
   - component: {fileID: 5450850018333815174}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19850,6 +20200,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19875,6 +20226,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7392655442139950653
 GameObject:
   m_ObjectHideFlags: 0
@@ -19886,7 +20238,7 @@ GameObject:
   - component: {fileID: 6896813973194551442}
   - component: {fileID: 5989520859242708196}
   - component: {fileID: 4148072375060659417}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19929,6 +20281,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19954,6 +20307,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7424153332964433216
 GameObject:
   m_ObjectHideFlags: 0
@@ -19965,7 +20319,7 @@ GameObject:
   - component: {fileID: 1350894936266079528}
   - component: {fileID: 6772383095739599593}
   - component: {fileID: 2918996879229754935}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20008,6 +20362,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20033,6 +20388,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7427489823106472351
 GameObject:
   m_ObjectHideFlags: 0
@@ -20042,7 +20398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1179322498237348912}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20075,7 +20431,7 @@ GameObject:
   - component: {fileID: 2225598085526108133}
   - component: {fileID: 7960665919063221560}
   - component: {fileID: 5833401773029113957}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20118,6 +20474,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20142,6 +20499,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7446398293085206476
 GameObject:
   m_ObjectHideFlags: 0
@@ -20151,7 +20509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8187168229867157697}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20184,7 +20542,7 @@ GameObject:
   - component: {fileID: 8752776545462386786}
   - component: {fileID: 5967331117830637720}
   - component: {fileID: 8026601508994357731}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20227,6 +20585,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20251,6 +20610,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7472744676025707474
 GameObject:
   m_ObjectHideFlags: 0
@@ -20262,7 +20622,7 @@ GameObject:
   - component: {fileID: 4267133255683064900}
   - component: {fileID: 4135526800785150451}
   - component: {fileID: 6585197583024759171}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20305,6 +20665,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20330,6 +20691,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7480473414880988035
 GameObject:
   m_ObjectHideFlags: 0
@@ -20341,7 +20703,7 @@ GameObject:
   - component: {fileID: 354238556191652559}
   - component: {fileID: 6582395901712934951}
   - component: {fileID: 2559347692425006744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20384,6 +20746,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20409,6 +20772,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7482335576535760730
 GameObject:
   m_ObjectHideFlags: 0
@@ -20418,7 +20782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 574150224903565138}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_laterale3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20449,7 +20813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2130600331128233139}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PaletteVideTexturee1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20499,7 +20863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301860969149923352}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20532,7 +20896,7 @@ GameObject:
   - component: {fileID: 6155204839992355594}
   - component: {fileID: 4212198473252042562}
   - component: {fileID: 3545270139828941695}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20575,6 +20939,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20600,6 +20965,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7528122679880841238
 GameObject:
   m_ObjectHideFlags: 0
@@ -20611,7 +20977,7 @@ GameObject:
   - component: {fileID: 7349628701526499253}
   - component: {fileID: 1388858005068281801}
   - component: {fileID: 6911981089177475922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20654,6 +21020,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20679,6 +21046,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7542489701784106731
 GameObject:
   m_ObjectHideFlags: 0
@@ -20688,7 +21056,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3580758889455096848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20721,7 +21089,7 @@ GameObject:
   - component: {fileID: 508072714092989297}
   - component: {fileID: 3081265503821912704}
   - component: {fileID: 4277003797989190006}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20764,6 +21132,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20789,6 +21158,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7639018649088638347
 GameObject:
   m_ObjectHideFlags: 0
@@ -20798,7 +21168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6432991673564140716}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20829,7 +21199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3719224606880096813}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20862,7 +21232,7 @@ GameObject:
   - component: {fileID: 4131499337105645586}
   - component: {fileID: 5098945826063876163}
   - component: {fileID: 3055275554131628163}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20905,6 +21275,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20930,6 +21301,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7687468138705027886
 GameObject:
   m_ObjectHideFlags: 0
@@ -20941,7 +21313,7 @@ GameObject:
   - component: {fileID: 663162945737599712}
   - component: {fileID: 1164011702626954144}
   - component: {fileID: 6367605948286813470}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20984,6 +21356,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21009,6 +21382,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7725528475562079894
 GameObject:
   m_ObjectHideFlags: 0
@@ -21017,26 +21391,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6732264545619543173}
+  - component: {fileID: 567538640661128161}
   - component: {fileID: 709775340}
   - component: {fileID: 709775341}
   - component: {fileID: 709775342}
-  m_Layer: 0
+  - component: {fileID: 1651074381890689124}
+  - component: {fileID: -4387220972859535808}
+  m_Layer: 9
   m_Name: Sales Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6732264545619543173
-Transform:
+--- !u!224 &567538640661128161
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7725528475562079894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1603913, y: -0.1, z: 5.8592873}
+  m_LocalPosition: {x: 0, y: 0, z: 5.8592873}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1153300503621497710}
@@ -21044,6 +21420,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -6.1603913, y: -0.1}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &709775340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21069,8 +21450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cfda4a3a5ed4abea3932abae41876d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 50
   maxStorage: 5
   sellingItems: []
+  outline: {fileID: 0}
 --- !u!114 &709775342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22089,6 +22472,39 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
+--- !u!114 &1651074381890689124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725528475562079894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40ade52141d4e043af34308e6518885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationAngle: 10
+  isNewInstance: 0
+  surfaceMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  myIcon: {fileID: 0}
+--- !u!114 &-4387220972859535808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725528475562079894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fa090c9f92c9442b052ebf355e7ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveID: 9
+  uniqueID: 0
+  isHuman: 0
 --- !u!1 &7754327225320260219
 GameObject:
   m_ObjectHideFlags: 0
@@ -22100,7 +22516,7 @@ GameObject:
   - component: {fileID: 7305709933962655616}
   - component: {fileID: 4439088346870155365}
   - component: {fileID: 193243775928738507}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22143,6 +22559,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22168,6 +22585,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7827791694235215073
 GameObject:
   m_ObjectHideFlags: 0
@@ -22179,7 +22597,7 @@ GameObject:
   - component: {fileID: 7322458853424883091}
   - component: {fileID: 1997087979455068372}
   - component: {fileID: 2404040262602605860}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22222,6 +22640,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22247,6 +22666,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7904465482229891465
 GameObject:
   m_ObjectHideFlags: 0
@@ -22256,7 +22676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6763641067859450414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22289,7 +22709,7 @@ GameObject:
   - component: {fileID: 373508295148625800}
   - component: {fileID: 8174629969308167189}
   - component: {fileID: 1189733079324969193}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22332,6 +22752,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22357,6 +22778,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8121415636703699141
 GameObject:
   m_ObjectHideFlags: 0
@@ -22368,7 +22790,7 @@ GameObject:
   - component: {fileID: 6589895914302595419}
   - component: {fileID: 6842698732626807180}
   - component: {fileID: 3670740565152650822}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh99
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22411,6 +22833,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22436,6 +22859,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8145687733519146162
 GameObject:
   m_ObjectHideFlags: 0
@@ -22447,7 +22871,7 @@ GameObject:
   - component: {fileID: 1867534627267346372}
   - component: {fileID: 8898061674039136227}
   - component: {fileID: 1818787882572612045}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22490,6 +22914,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22514,6 +22939,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8199226496706283783
 GameObject:
   m_ObjectHideFlags: 0
@@ -22523,7 +22949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4763164877166032298}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22561,7 +22987,7 @@ GameObject:
   - component: {fileID: 1468866494366843696}
   - component: {fileID: 2195378654373477885}
   - component: {fileID: 3328167496164523073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22604,6 +23030,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22629,6 +23056,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8241154426264462570
 GameObject:
   m_ObjectHideFlags: 0
@@ -22638,7 +23066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5313367901644199689}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22671,7 +23099,7 @@ GameObject:
   - component: {fileID: 3208674641038391099}
   - component: {fileID: 135164902952792985}
   - component: {fileID: 5335168481648798050}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22714,6 +23142,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22739,6 +23168,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8271593530984228725
 GameObject:
   m_ObjectHideFlags: 0
@@ -22748,7 +23178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3942375509720046047}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22779,7 +23209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8420116755811038083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22812,7 +23242,7 @@ GameObject:
   - component: {fileID: 8588919346862685008}
   - component: {fileID: 8062282730424599355}
   - component: {fileID: 699633884061504338}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22855,6 +23285,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22880,6 +23311,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8312711125665983802
 GameObject:
   m_ObjectHideFlags: 0
@@ -22889,7 +23321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5470064371799473816}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22920,7 +23352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1350234325375584605}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22953,7 +23385,7 @@ GameObject:
   - component: {fileID: 7116513334536245}
   - component: {fileID: 3072106965978086177}
   - component: {fileID: 698076716232972688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22996,6 +23428,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23021,6 +23454,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8340440783134545822
 GameObject:
   m_ObjectHideFlags: 0
@@ -23032,7 +23466,7 @@ GameObject:
   - component: {fileID: 6640684159472537837}
   - component: {fileID: 2658434001607222218}
   - component: {fileID: 6566424398850114522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23075,6 +23509,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23100,6 +23535,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8378743842538621521
 GameObject:
   m_ObjectHideFlags: 0
@@ -23109,7 +23545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5495632220915127066}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Planche_laterale2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23140,7 +23576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5930050109141609823}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23173,7 +23609,7 @@ GameObject:
   - component: {fileID: 4058319214760070907}
   - component: {fileID: 2601817285606237701}
   - component: {fileID: 8044407140523618293}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23216,6 +23652,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23241,6 +23678,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8399679664566328788
 GameObject:
   m_ObjectHideFlags: 0
@@ -23252,7 +23690,7 @@ GameObject:
   - component: {fileID: 7842695820528881152}
   - component: {fileID: 1817724428611503794}
   - component: {fileID: 7543201882654254526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23295,6 +23733,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23320,6 +23759,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8429636843802684509
 GameObject:
   m_ObjectHideFlags: 0
@@ -23329,7 +23769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1456674076067822795}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23362,7 +23802,7 @@ GameObject:
   - component: {fileID: 5567520307551802859}
   - component: {fileID: 2275953006247632532}
   - component: {fileID: 5663721585427024359}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23405,6 +23845,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23430,6 +23871,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8504661421898137945
 GameObject:
   m_ObjectHideFlags: 0
@@ -23439,7 +23881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6390015480515611258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23470,7 +23912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8994560752265974709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23503,7 +23945,7 @@ GameObject:
   - component: {fileID: 8237190695393057712}
   - component: {fileID: 607112883244756226}
   - component: {fileID: 5466704125976105881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23546,6 +23988,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23571,6 +24014,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8544965360021900687
 GameObject:
   m_ObjectHideFlags: 0
@@ -23580,7 +24024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8468657948194815522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23613,7 +24057,7 @@ GameObject:
   - component: {fileID: 3024517459356626519}
   - component: {fileID: 2434590097707662060}
   - component: {fileID: 5208397322387421832}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23656,6 +24100,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23680,6 +24125,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8558242341352653985
 GameObject:
   m_ObjectHideFlags: 0
@@ -23689,7 +24135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4847763954262548858}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23722,7 +24168,7 @@ GameObject:
   - component: {fileID: 1833128518402080631}
   - component: {fileID: 6409620015904200673}
   - component: {fileID: 4439782390902646735}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23765,6 +24211,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23790,6 +24237,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8660919991286307405
 GameObject:
   m_ObjectHideFlags: 0
@@ -23799,7 +24247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8313402973272560598}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cardboard_box6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23837,7 +24285,7 @@ GameObject:
   - component: {fileID: 6916462251008852107}
   - component: {fileID: 5351231000431853788}
   - component: {fileID: 1558468113058061338}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23880,6 +24328,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23905,6 +24354,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8799016112615714128
 GameObject:
   m_ObjectHideFlags: 0
@@ -23916,7 +24366,7 @@ GameObject:
   - component: {fileID: 6953252637334032988}
   - component: {fileID: 8076308086968452038}
   - component: {fileID: 1273151515606987423}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh114
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23959,6 +24409,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23983,6 +24434,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8810153019288985090
 GameObject:
   m_ObjectHideFlags: 0
@@ -23994,7 +24446,7 @@ GameObject:
   - component: {fileID: 3071413142596050791}
   - component: {fileID: 4568700808753003272}
   - component: {fileID: 2245965506197095531}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24037,6 +24489,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24061,6 +24514,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8841107837847676285
 GameObject:
   m_ObjectHideFlags: 0
@@ -24072,7 +24526,7 @@ GameObject:
   - component: {fileID: 5589036005669971224}
   - component: {fileID: 8030603072178372780}
   - component: {fileID: 8499150167223536840}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24115,6 +24569,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24140,6 +24595,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8896032673165133832
 GameObject:
   m_ObjectHideFlags: 0
@@ -24151,7 +24607,7 @@ GameObject:
   - component: {fileID: 6297239084734036583}
   - component: {fileID: 294308186258086334}
   - component: {fileID: 412887261789575188}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24194,6 +24650,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24219,6 +24676,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9002504252850101743
 GameObject:
   m_ObjectHideFlags: 0
@@ -24228,7 +24686,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7897880634991906429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24261,7 +24719,7 @@ GameObject:
   - component: {fileID: 6644106095532000004}
   - component: {fileID: 2046264636073541841}
   - component: {fileID: 442221747394478054}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24304,6 +24762,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24329,6 +24788,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9038103947453571067
 GameObject:
   m_ObjectHideFlags: 0
@@ -24340,7 +24800,7 @@ GameObject:
   - component: {fileID: 3165420992428235689}
   - component: {fileID: 692458931643921461}
   - component: {fileID: 516437048407400733}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24383,6 +24843,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24408,6 +24869,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9041158829566445567
 GameObject:
   m_ObjectHideFlags: 0
@@ -24417,7 +24879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1606126433933418041}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24448,7 +24910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9179196577476830979}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24479,7 +24941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2408103046333024547}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24512,7 +24974,7 @@ GameObject:
   - component: {fileID: 6169838882227180086}
   - component: {fileID: 4909439927049076726}
   - component: {fileID: 1839829952065210482}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24555,6 +25017,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24580,6 +25043,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9160887931290958563
 GameObject:
   m_ObjectHideFlags: 0
@@ -24591,7 +25055,7 @@ GameObject:
   - component: {fileID: 1642005729593284229}
   - component: {fileID: 1299639182677012500}
   - component: {fileID: 726694586775371887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24634,6 +25098,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24659,3 +25124,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

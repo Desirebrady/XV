@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6454077486465304986}
   - component: {fileID: 8242091203700796598}
   - component: {fileID: 8242091203700796599}
+  - component: {fileID: 8117181596191841340}
   m_Layer: 9
   m_Name: MansNotHot-ForUI
   m_TagString: Untagged
@@ -66,11 +67,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054e40a1c02fb48ae9e477c40b8fe83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 100
   startPos: {x: 0, y: 0, z: 0}
   item: {fileID: 0}
   station: {fileID: 0}
-  fromPoint: {fileID: 0}
-  toPoint: {fileID: 0}
+  selectedDecal: {fileID: 0}
+  ikActive: 0
+  carryBox_IK: {fileID: 0}
+  carryBox_IK_Parent: {fileID: 0}
 --- !u!195 &8242091203700796599
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -93,6 +97,24 @@ NavMeshAgent:
   m_BaseOffset: -0.07
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &8117181596191841340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90115277699553011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40ade52141d4e043af34308e6518885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationAngle: 10
+  isNewInstance: 0
+  surfaceMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  myIcon: {fileID: 0}
 --- !u!1 &90740872725484258
 GameObject:
   m_ObjectHideFlags: 0

@@ -64,6 +64,7 @@ public class ItemManagerEditor : Editor
 
     private void Draw()
     {
+        itemManager.price = EditorGUILayout.FloatField("Price:", itemManager.price);
         itemManager.ManagerType = (ItemManager.ItemManagerType)EditorGUILayout.EnumPopup("Manager Type Rules:", itemManager.ManagerType);
         itemManager.maxStorage = EditorGUILayout.IntField("Max Storage:", itemManager.maxStorage);
         itemManager.requiresWorkers = EditorGUILayout.Toggle("RequiresWorkers:", itemManager.requiresWorkers);

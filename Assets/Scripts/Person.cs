@@ -19,11 +19,13 @@ public class Instruction
     public IOperate workStation;
     public Item target;
     public Transform location;
-    public int index = -1;
+    public int index = 0;
+    public GameObject itemManagerObject;
 
     public Instruction(InteractionType type, GameObject im, Item item)
     {
         target = item;
+        itemManagerObject = im;
         interactionType = type;
         switch (type)
         {
@@ -43,9 +45,11 @@ public class Instruction
     }
 }
 
+[System.Serializable]
 [RequireComponent(typeof(NavMeshAgent)), RequireComponent(typeof(Animator)), RequireComponent(typeof(Outline))]
-public class Person : MonoBehaviour
+public class Person : MonoBehaviour, IBuyable
 {
+    public float price;
     public LinkedList<Instruction> Instructions = new LinkedList<Instruction>();
     NavMeshAgent navMeshAgent;
     Animator animator;
@@ -57,6 +61,7 @@ public class Person : MonoBehaviour
 
     public GameObject selectedDecal;
 
+    //BONUS MARKS (IK HANDLES HERE :P)
     [Header("Player Hand IK")]
     public bool ikActive;
     public GameObject carryBox_IK;
@@ -68,11 +73,15 @@ public class Person : MonoBehaviour
     void Start()
     {
         station = null;
-        startPos = transform.position;
         navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         selectedDecal = transform.Find("SelectedDecal").gameObject;
         selectedDecal.SetActive(false);
+    }
+
+    public void SetupStartingPos()
+    {
+        startPos = transform.position;
     }
 
     private void RotateTowards(Vector3 direction)
@@ -82,6 +91,11 @@ public class Person : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10);
     }
     
+    public float GetPrice()
+    {
+        return price;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -98,7 +112,7 @@ public class Person : MonoBehaviour
             if (GameManager.Instance.Running)
             {
                 navMeshAgent.isStopped = false;
-                if (Vector3.Distance(Instructions.First.Value.location.position, transform.position) < 1)
+                if (Vector3.Distance(Instructions.First.Value.location.position, transform.position) < 2)
                 {
                     DoAction();
                 }
@@ -202,32 +216,6 @@ public class Person : MonoBehaviour
     {
         manager.EndOperation(this);
         NextInstruction();
-    }
-
-    public void OnMouseDown()
-    {
-        //Set previous selected object as hidden
-        if (SceneObjectsManager.Instance.selectedPerson != null)
-            SceneObjectsManager.Instance.selectedPerson.selectedDecal.gameObject.SetActive(false);
-
-        //Set newly selected object and enable it
-        SceneObjectsManager.Instance.selectedPerson = this;
-        selectedDecal.gameObject.SetActive(true);
-
-
-        //Highlight Task Objects
-        for (int i = 0; i < GameManager.Instance.allObjects.Count; i++)
-        {
-            ItemManager current = GameManager.Instance.allObjects[i];
-
-            if (current == null)
-                continue ;
-
-            if (current.ManagerType == ItemManager.ItemManagerType.creates || current.ManagerType == ItemManager.ItemManagerType.refines || current.ManagerType == ItemManager.ItemManagerType.destroys)
-                current.outline.enabled = true;
-            else
-                current.outline.enabled = false;
-        }
     }
 
     #region Hand IK

@@ -32,6 +32,8 @@ public class DeliveryTruck
         SalesPoint = GameObject.FindObjectsOfType<SellItems>().ToList();
 
         for (int i = 0; i < SalesPoint.Count; i++)
-            SalesPoint[i].sell(target);
+        {
+            GameManager.Instance.moneySystem.AddMoney(SalesPoint[i].sell(target) * target.GetPrice());
+        }
     }
 }

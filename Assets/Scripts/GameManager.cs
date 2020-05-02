@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;//Use of a singleton here, needs to be static in order for other scripts to access it.
     [SerializeField]
     public List<Item> items;
+    public LoadingRules loadingRules;
     int itemindex = 0;
+
 
     public static GameManager Instance
     {
@@ -27,22 +29,37 @@ public class GameManager : MonoBehaviour
 
     #region Variables
     private float tickTimer;
+    public float levelTimer = 180.0f;
     [HideInInspector] public List<ItemManager> allObjects = new List<ItemManager>();
     public bool Running = false;
 
 
     public DeliveryTruck deliveryTruck = new DeliveryTruck();
-
+    public MoneySystem moneySystem = new MoneySystem();
+    public int uniqueID_Tracker;
     #endregion
 
     void Awake()
     {
-        allObjects = FindObjectsOfType<ItemManager>().ToList();
+        uniqueID_Tracker = 0;
+        loadingRules.InitSceneRules(this);
+
         deliveryTruck.target = items[itemindex];
+    }
+
+    void Start()
+    {
+        Running = false;
     }
 
     private void Update()
     {
+        if (levelTimer <= 0)
+        {
+            Debug.Log("Your earnings over 3 min is: " + moneySystem.currentMoney);
+            return;
+        }
+
         tickTimer += Time.deltaTime;
         if (deliveryTruck.UpdateTruck())
         {
@@ -55,6 +72,12 @@ public class GameManager : MonoBehaviour
         {
             tickTimer %= 1;
             UpdateTickTimers();
+
+            
+            if (Running)
+                levelTimer--;
+
+            LevelTimer.Instance.RefreshTimerUI();
         }
         
         //Dante _ Commented Out
@@ -68,9 +91,10 @@ public class GameManager : MonoBehaviour
             .ForEach(x => x.GetComponent<ItemManager>().UpdateTickTimer());
     }
 
-    void Start()
+    public int GetUniqueID_ForObject()
     {
-        Running = false;
+        int currentUID = GameManager.Instance.uniqueID_Tracker;
+        GameManager.Instance.uniqueID_Tracker++;
+        return currentUID;
     }
-
 }

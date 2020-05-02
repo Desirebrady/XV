@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SceneObjectsManager : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class SceneObjectsManager : MonoBehaviour
         }
     }
     #endregion
+    public bool actionRevalidate = true; 
     [HideInInspector] public bool editMenuIsActive;
     [HideInInspector] public bool actionsMenuIsActive;
     [HideInInspector] public UIElementController selectedInstance;
@@ -32,6 +34,28 @@ public class SceneObjectsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.Instance.Running == true)
+            return;
+        if (Input.GetKeyDown(KeyCode.Mouse0) && !EventSystem.current.IsPointerOverGameObject())
+        {
+            actionRevalidate = true;
+            Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(r.origin, r.direction, out RaycastHit rh))
+            {
+                if (selectedPerson)
+                    selectedPerson.selectedDecal.SetActive(false);
+                Person p = rh.transform.gameObject.GetComponent<Person>();
+                if (p != null)
+                {
+                    selectedPerson = p;
+                    selectedPerson.selectedDecal.SetActive(true);
+                }
+                else
+                {
+                    selectedPerson = null;
+                }
+            }
+        }
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             if (selectedPerson != null)
@@ -51,41 +75,44 @@ public class SceneObjectsManager : MonoBehaviour
         {
             LineRenderSystem.Instance.lineRenderer.material.SetColor("_Color", Color.grey);
             Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Physics.Raycast(r.origin, r.direction, out RaycastHit rh);
-            EndHit = rh.point;
-
-            LineRenderSystem.Instance.lineRenderer.SetPosition(0, new Vector3(InitialHit.x, 0.1f, InitialHit.z));
-
-            if (rh.transform.gameObject.GetComponent<IPut>() != null && firstSelection.GetComponent<IGet>() != null)
+            if (Physics.Raycast(r.origin, r.direction, out RaycastHit rh) && firstSelection)
             {
-                EndHit = rh.transform.position;
-                
-                IGet temp = firstSelection.GetComponent<IGet>();
-                if (temp != null)
+                EndHit = rh.point;
+
+                LineRenderSystem.Instance.lineRenderer.SetPosition(0, new Vector3(InitialHit.x, 0.1f, InitialHit.z));
+
+                if (rh.transform.gameObject.GetComponent<IPut>() != null && firstSelection.GetComponent<IGet>() != null)
                 {
-                    foreach(Ingredient i in temp.GetOutputs())
+                    EndHit = rh.transform.position;
+                    
+                    IGet temp = firstSelection.GetComponent<IGet>();
+                    if (temp != null)
                     {
-                        if (rh.transform.GetComponent<IPut>().CanTake(i.item))
+                        foreach(Ingredient i in temp.GetOutputs())
                         {
-                            LineRenderSystem.Instance.lineRenderer.material.SetColor("_Color", Color.green);
-                        }
-                        else
-                        {
-                            LineRenderSystem.Instance.lineRenderer.material.SetColor("_Color", Color.red);
+                            if (rh.transform.GetComponent<IPut>().CanTake(i.item))
+                            {
+                                LineRenderSystem.Instance.lineRenderer.material.SetColor("_Color", Color.green);
+                            }
+                            else
+                            {
+                                LineRenderSystem.Instance.lineRenderer.material.SetColor("_Color", Color.red);
+                            }
                         }
                     }
                 }
-            }
-            else
-            {
+                else
+                {
+                    LineRenderSystem.Instance.lineRenderer.SetPosition(1, new Vector3(EndHit.x, 0.1f, EndHit.z));
+                }
+
                 LineRenderSystem.Instance.lineRenderer.SetPosition(1, new Vector3(EndHit.x, 0.1f, EndHit.z));
             }
-
-            LineRenderSystem.Instance.lineRenderer.SetPosition(1, new Vector3(EndHit.x, 0.1f, EndHit.z));
         }
 
         if (Input.GetKeyUp(KeyCode.Mouse1))
         {
+            actionRevalidate = true;
             if (firstSelection != null)
             {
                 RaycastHit rh;
@@ -94,7 +121,6 @@ public class SceneObjectsManager : MonoBehaviour
                 if (firstSelection == rh.transform.gameObject && rh.transform.gameObject.GetComponent<IOperate>() != null)
                 {
                     selectedPerson.AddWork(firstSelection);
-                    Debug.Log("Added Work At: " + firstSelection.name);
                 }
                 else if (rh.transform.gameObject.GetComponent<IPut>() != null && firstSelection.GetComponent<IGet>() != null)
                 {
@@ -135,18 +161,20 @@ public class SceneObjectsManager : MonoBehaviour
             }
         }
 
-        if (UIElementManager.Instance.currentMode == MenuMode.ActionsMode)
-        {
-            
-        }
-
-        DeselectSelectedPerson();
     }
 
     public void RemoveSelectedInstance()
     {
         if (selectedInstance != null && editMenuIsActive)
         {
+
+            if (selectedInstance.gameObject.GetComponent<Person>() != null)
+                GameManager.Instance.moneySystem.AddMoney(selectedInstance.gameObject.GetComponent<Person>().price);
+            else if (selectedInstance.gameObject.GetComponent<ItemManager>() != null)
+                GameManager.Instance.moneySystem.AddMoney(selectedInstance.gameObject.GetComponent<ItemManager>().price);
+            else if (selectedInstance.gameObject.GetComponent<SellItems>() != null)
+                GameManager.Instance.moneySystem.AddMoney(selectedInstance.gameObject.GetComponent<SellItems>().price);
+
             Destroy(selectedInstance.gameObject);
         }
     }
@@ -162,40 +190,6 @@ public class SceneObjectsManager : MonoBehaviour
     public void CloseEditMenu()
     {
         UIElementManager.Instance.ActivateOrDeactivateBuildEditMenu();
-    }
-
-        private void DeselectSelectedPerson()
-    {
-        if (previousPerson != selectedPerson)
-        {
-            previousPerson = selectedPerson;
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.collider != null)
-                {
-                    Person personComponent;
-                    if (hit.transform.gameObject.TryGetComponent<Person>(out personComponent))
-                    {
-                        ResetPersonSelection();
-                    }
-                }
-            }
-            return;
-        }
-
-        /*
-        if (selectedPerson == null && previousPerson )
-            return;
-        */
-
     }
 
 
