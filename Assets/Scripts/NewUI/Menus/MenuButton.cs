@@ -133,4 +133,9 @@ public class MenuButton : MonoBehaviour
         GameManager.Instance.Running = true;
         UIElementManager.Instance.EnableMenuButtons();
     }
+
+    public void HideBackToMainManuCompletedScreenThing()
+    {
+        UIElementManager.Instance.CompletionCanvas.SetActive(false);
+    }
 }
