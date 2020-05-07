@@ -185,8 +185,8 @@ class UIElementManager : MonoBehaviour
     {
         if (!GameManager.Instance.Running)
         {
-            if (Input.GetKeyDown(KeyCode.I))
-                OnUIStartup();
+            //if (Input.GetKeyDown(KeyCode.I))
+                //OnUIStartup();
 
             EnableMenuButtons();
             if (currentMode != MenuMode.BuildMode)
